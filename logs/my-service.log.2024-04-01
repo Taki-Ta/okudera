@@ -7,3 +7,1084 @@
   2024-04-01 08:44:34.316  INFO salvo_core::server: server stopped
     at /Users/taki/.cargo/registry/src/index.crates.io-6f17d22bba15001f/salvo_core-0.66.2/src/server.rs:317 on main ThreadId(1)
 
+  2024-04-01 09:09:23.339  INFO okudera: log level: info
+    at src\main.rs:34 on main ThreadId(1)
+
+  2024-04-01 09:09:23.366  INFO salvo_core::server: listening [HTTP/1.1] on http://0.0.0.0:5800
+    at C:\Users\27217\.cargo\registry\src\index.crates.io-6f17d22bba15001f\salvo_core-0.66.2\src\server.rs:232 on main ThreadId(1)
+
+  2024-04-01 09:09:26.373  INFO salvo_extra::logging: Response, status: 200 OK, duration: 670.7µs
+    at C:\Users\27217\.cargo\registry\src\index.crates.io-6f17d22bba15001f\salvo_extra-0.66.2\src\logging.rs:44 on tokio-runtime-worker ThreadId(4)
+    in salvo_extra::logging::Request with remote_addr=socket://127.0.0.1:62130 version=HTTP/1.1 method=GET path=http://127.0.0.1:5800/login
+
+  2024-04-01 09:09:26.475  INFO salvo_extra::logging: Response, status: 304 Not Modified, duration: 13.3131ms
+    at C:\Users\27217\.cargo\registry\src\index.crates.io-6f17d22bba15001f\salvo_extra-0.66.2\src\logging.rs:44 on tokio-runtime-worker ThreadId(4)
+    in salvo_extra::logging::Request with remote_addr=socket://127.0.0.1:62130 version=HTTP/1.1 method=GET path=http://127.0.0.1:5800/assets/js/tailwindcss.js
+
+  2024-04-01 09:09:26.480  INFO salvo_extra::logging: Response, status: 304 Not Modified, duration: 2.9805ms
+    at C:\Users\27217\.cargo\registry\src\index.crates.io-6f17d22bba15001f\salvo_extra-0.66.2\src\logging.rs:44 on tokio-runtime-worker ThreadId(4)
+    in salvo_extra::logging::Request with remote_addr=socket://127.0.0.1:62131 version=HTTP/1.1 method=GET path=http://127.0.0.1:5800/assets/js/sweetalert2.js
+
+  2024-04-01 09:09:26.510  INFO salvo_extra::logging: Response, status: 304 Not Modified, duration: 1.8498ms
+    at C:\Users\27217\.cargo\registry\src\index.crates.io-6f17d22bba15001f\salvo_extra-0.66.2\src\logging.rs:44 on tokio-runtime-worker ThreadId(4)
+    in salvo_extra::logging::Request with remote_addr=socket://127.0.0.1:62131 version=HTTP/1.1 method=GET path=http://127.0.0.1:5800/assets/js/alpinejs.js
+
+  2024-04-01 09:09:32.437  INFO salvo_extra::logging: Response, status: 200 OK, duration: 1.1818ms
+    at C:\Users\27217\.cargo\registry\src\index.crates.io-6f17d22bba15001f\salvo_extra-0.66.2\src\logging.rs:44 on tokio-runtime-worker ThreadId(4)
+    in salvo_extra::logging::Request with remote_addr=socket://127.0.0.1:62131 version=HTTP/1.1 method=GET path=http://127.0.0.1:5800/login_new
+
+  2024-04-01 09:09:32.508  INFO salvo_extra::logging: Response, status: 304 Not Modified, duration: 6.9775ms
+    at C:\Users\27217\.cargo\registry\src\index.crates.io-6f17d22bba15001f\salvo_extra-0.66.2\src\logging.rs:44 on tokio-runtime-worker ThreadId(15)
+    in salvo_extra::logging::Request with remote_addr=socket://127.0.0.1:62131 version=HTTP/1.1 method=GET path=http://127.0.0.1:5800/assets/css/main.css
+
+  2024-04-01 09:09:32.510  INFO salvo_extra::logging: Response, status: 304 Not Modified, duration: 444.1µs
+    at C:\Users\27217\.cargo\registry\src\index.crates.io-6f17d22bba15001f\salvo_extra-0.66.2\src\logging.rs:44 on tokio-runtime-worker ThreadId(4)
+    in salvo_extra::logging::Request with remote_addr=socket://127.0.0.1:62138 version=HTTP/1.1 method=GET path=http://127.0.0.1:5800/assets/js/functions.js
+
+  2024-04-01 09:09:32.510  INFO salvo_extra::logging: Response, status: 304 Not Modified, duration: 983µs
+    at C:\Users\27217\.cargo\registry\src\index.crates.io-6f17d22bba15001f\salvo_extra-0.66.2\src\logging.rs:44 on tokio-runtime-worker ThreadId(15)
+    in salvo_extra::logging::Request with remote_addr=socket://127.0.0.1:62130 version=HTTP/1.1 method=GET path=http://127.0.0.1:5800/assets/css/vendor/aos.css
+
+  2024-04-01 09:09:32.510  INFO salvo_extra::logging: Response, status: 304 Not Modified, duration: 1.1771ms
+    at C:\Users\27217\.cargo\registry\src\index.crates.io-6f17d22bba15001f\salvo_extra-0.66.2\src\logging.rs:44 on tokio-runtime-worker ThreadId(12)
+    in salvo_extra::logging::Request with remote_addr=socket://127.0.0.1:62131 version=HTTP/1.1 method=GET path=http://127.0.0.1:5800/assets/js/vendor/aos.js
+
+  2024-04-01 09:09:32.510  INFO salvo_extra::logging: Response, status: 304 Not Modified, duration: 1.2808ms
+    at C:\Users\27217\.cargo\registry\src\index.crates.io-6f17d22bba15001f\salvo_extra-0.66.2\src\logging.rs:44 on tokio-runtime-worker ThreadId(14)
+    in salvo_extra::logging::Request with remote_addr=socket://127.0.0.1:62136 version=HTTP/1.1 method=GET path=http://127.0.0.1:5800/assets/js/vendor/popper.min.js
+
+  2024-04-01 09:09:32.511  INFO salvo_extra::logging: Response, status: 304 Not Modified, duration: 2.0046ms
+    at C:\Users\27217\.cargo\registry\src\index.crates.io-6f17d22bba15001f\salvo_extra-0.66.2\src\logging.rs:44 on tokio-runtime-worker ThreadId(13)
+    in salvo_extra::logging::Request with remote_addr=socket://127.0.0.1:62137 version=HTTP/1.1 method=GET path=http://127.0.0.1:5800/assets/js/vendor/bootstrap.min.js
+
+  2024-04-01 09:09:32.512  INFO salvo_extra::logging: Response, status: 304 Not Modified, duration: 3.0508ms
+    at C:\Users\27217\.cargo\registry\src\index.crates.io-6f17d22bba15001f\salvo_extra-0.66.2\src\logging.rs:44 on tokio-runtime-worker ThreadId(17)
+    in salvo_extra::logging::Request with remote_addr=socket://127.0.0.1:62135 version=HTTP/1.1 method=GET path=http://127.0.0.1:5800/assets/js/vendor/jquery.min.js
+
+  2024-04-01 09:09:32.518  INFO salvo_extra::logging: Response, status: 304 Not Modified, duration: 1.6619ms
+    at C:\Users\27217\.cargo\registry\src\index.crates.io-6f17d22bba15001f\salvo_extra-0.66.2\src\logging.rs:44 on tokio-runtime-worker ThreadId(4)
+    in salvo_extra::logging::Request with remote_addr=socket://127.0.0.1:62135 version=HTTP/1.1 method=GET path=http://127.0.0.1:5800/assets/js/alpinejs.js
+
+  2024-04-01 09:09:41.139  INFO salvo_extra::logging: Response, status: 200 OK, duration: 113.6µs
+    at C:\Users\27217\.cargo\registry\src\index.crates.io-6f17d22bba15001f\salvo_extra-0.66.2\src\logging.rs:44 on tokio-runtime-worker ThreadId(4)
+    in salvo_extra::logging::Request with remote_addr=socket://127.0.0.1:62135 version=HTTP/1.1 method=GET path=http://127.0.0.1:5800/login
+
+  2024-04-01 09:09:41.208  INFO salvo_extra::logging: Response, status: 304 Not Modified, duration: 9.1697ms
+    at C:\Users\27217\.cargo\registry\src\index.crates.io-6f17d22bba15001f\salvo_extra-0.66.2\src\logging.rs:44 on tokio-runtime-worker ThreadId(4)
+    in salvo_extra::logging::Request with remote_addr=socket://127.0.0.1:62135 version=HTTP/1.1 method=GET path=http://127.0.0.1:5800/assets/js/tailwindcss.js
+
+  2024-04-01 09:09:41.213  INFO salvo_extra::logging: Response, status: 304 Not Modified, duration: 2.1257ms
+    at C:\Users\27217\.cargo\registry\src\index.crates.io-6f17d22bba15001f\salvo_extra-0.66.2\src\logging.rs:44 on tokio-runtime-worker ThreadId(4)
+    in salvo_extra::logging::Request with remote_addr=socket://127.0.0.1:62135 version=HTTP/1.1 method=GET path=http://127.0.0.1:5800/assets/js/sweetalert2.js
+
+  2024-04-01 09:09:41.216  INFO salvo_extra::logging: Response, status: 304 Not Modified, duration: 1.7109ms
+    at C:\Users\27217\.cargo\registry\src\index.crates.io-6f17d22bba15001f\salvo_extra-0.66.2\src\logging.rs:44 on tokio-runtime-worker ThreadId(4)
+    in salvo_extra::logging::Request with remote_addr=socket://127.0.0.1:62137 version=HTTP/1.1 method=GET path=http://127.0.0.1:5800/assets/js/alpinejs.js
+
+  2024-04-01 09:11:36.444  INFO okudera: ctrl_c signal received
+    at src\main.rs:104 on tokio-runtime-worker ThreadId(4)
+
+  2024-04-01 09:11:36.445  INFO salvo_core::server: initiate graceful stop server, timeout_in_seconds: 60.0
+    at C:\Users\27217\.cargo\registry\src\index.crates.io-6f17d22bba15001f\salvo_core-0.66.2\src\server.rs:255 on main ThreadId(1)
+
+  2024-04-01 09:11:36.445  INFO salvo_core::server: wait for all connections to close.
+    at C:\Users\27217\.cargo\registry\src\index.crates.io-6f17d22bba15001f\salvo_core-0.66.2\src\server.rs:313 on main ThreadId(1)
+
+  2024-04-01 09:11:36.445  INFO salvo_core::conn::proto: closing connection due to inactivity
+    at C:\Users\27217\.cargo\registry\src\index.crates.io-6f17d22bba15001f\salvo_core-0.66.2\src\conn\proto.rs:117 on tokio-runtime-worker ThreadId(17)
+
+  2024-04-01 09:11:36.445  INFO salvo_core::conn::proto: closing connection due to inactivity
+    at C:\Users\27217\.cargo\registry\src\index.crates.io-6f17d22bba15001f\salvo_core-0.66.2\src\conn\proto.rs:117 on tokio-runtime-worker ThreadId(15)
+
+  2024-04-01 09:11:36.445  INFO salvo_core::conn::proto: closing connection due to inactivity
+    at C:\Users\27217\.cargo\registry\src\index.crates.io-6f17d22bba15001f\salvo_core-0.66.2\src\conn\proto.rs:117 on tokio-runtime-worker ThreadId(12)
+
+  2024-04-01 09:11:36.445  INFO salvo_core::conn::proto: closing connection due to inactivity
+    at C:\Users\27217\.cargo\registry\src\index.crates.io-6f17d22bba15001f\salvo_core-0.66.2\src\conn\proto.rs:117 on tokio-runtime-worker ThreadId(13)
+
+  2024-04-01 09:11:36.445  INFO salvo_core::conn::proto: closing connection due to inactivity
+    at C:\Users\27217\.cargo\registry\src\index.crates.io-6f17d22bba15001f\salvo_core-0.66.2\src\conn\proto.rs:117 on tokio-runtime-worker ThreadId(14)
+
+  2024-04-01 09:11:36.445  INFO salvo_core::conn::proto: closing connection due to inactivity
+    at C:\Users\27217\.cargo\registry\src\index.crates.io-6f17d22bba15001f\salvo_core-0.66.2\src\conn\proto.rs:117 on tokio-runtime-worker ThreadId(11)
+
+  2024-04-01 09:11:36.447  INFO salvo_core::server: server stopped
+    at C:\Users\27217\.cargo\registry\src\index.crates.io-6f17d22bba15001f\salvo_core-0.66.2\src\server.rs:317 on main ThreadId(1)
+
+  2024-04-01 09:15:53.575  INFO okudera: log level: info
+    at src\main.rs:34 on main ThreadId(1)
+
+  2024-04-01 09:15:53.600  INFO salvo_core::server: listening [HTTP/1.1] on http://0.0.0.0:5800
+    at C:\Users\27217\.cargo\registry\src\index.crates.io-6f17d22bba15001f\salvo_core-0.66.2\src\server.rs:232 on main ThreadId(1)
+
+  2024-04-01 09:15:56.568  INFO salvo_extra::logging: Response, status: 200 OK, duration: 153.5624ms
+    at C:\Users\27217\.cargo\registry\src\index.crates.io-6f17d22bba15001f\salvo_extra-0.66.2\src\logging.rs:44 on tokio-runtime-worker ThreadId(2)
+    in salvo_extra::logging::Request with remote_addr=socket://127.0.0.1:62428 version=HTTP/1.1 method=GET path=http://127.0.0.1:5800/login
+
+  2024-04-01 09:15:56.641  INFO salvo_extra::logging: Response, status: 304 Not Modified, duration: 10.0116ms
+    at C:\Users\27217\.cargo\registry\src\index.crates.io-6f17d22bba15001f\salvo_extra-0.66.2\src\logging.rs:44 on tokio-runtime-worker ThreadId(16)
+    in salvo_extra::logging::Request with remote_addr=socket://127.0.0.1:62428 version=HTTP/1.1 method=GET path=http://127.0.0.1:5800/assets/css/main.css
+
+  2024-04-01 09:15:56.644  INFO salvo_extra::logging: Response, status: 304 Not Modified, duration: 1.9485ms
+    at C:\Users\27217\.cargo\registry\src\index.crates.io-6f17d22bba15001f\salvo_extra-0.66.2\src\logging.rs:44 on tokio-runtime-worker ThreadId(16)
+    in salvo_extra::logging::Request with remote_addr=socket://127.0.0.1:62429 version=HTTP/1.1 method=GET path=http://127.0.0.1:5800/assets/css/vendor/aos.css
+
+  2024-04-01 09:15:56.645  INFO salvo_extra::logging: Response, status: 304 Not Modified, duration: 887.9µs
+    at C:\Users\27217\.cargo\registry\src\index.crates.io-6f17d22bba15001f\salvo_extra-0.66.2\src\logging.rs:44 on tokio-runtime-worker ThreadId(16)
+    in salvo_extra::logging::Request with remote_addr=socket://127.0.0.1:62433 version=HTTP/1.1 method=GET path=http://127.0.0.1:5800/assets/js/functions.js
+
+  2024-04-01 09:15:56.646  INFO salvo_extra::logging: Response, status: 304 Not Modified, duration: 4.3277ms
+    at C:\Users\27217\.cargo\registry\src\index.crates.io-6f17d22bba15001f\salvo_extra-0.66.2\src\logging.rs:44 on tokio-runtime-worker ThreadId(2)
+    in salvo_extra::logging::Request with remote_addr=socket://127.0.0.1:62431 version=HTTP/1.1 method=GET path=http://127.0.0.1:5800/assets/js/vendor/popper.min.js
+
+  2024-04-01 09:15:56.648  INFO salvo_extra::logging: Response, status: 304 Not Modified, duration: 1.7244ms
+    at C:\Users\27217\.cargo\registry\src\index.crates.io-6f17d22bba15001f\salvo_extra-0.66.2\src\logging.rs:44 on tokio-runtime-worker ThreadId(17)
+    in salvo_extra::logging::Request with remote_addr=socket://127.0.0.1:62428 version=HTTP/1.1 method=GET path=http://127.0.0.1:5800/assets/js/vendor/aos.js
+
+  2024-04-01 09:15:56.648  INFO salvo_extra::logging: Response, status: 304 Not Modified, duration: 4.3451ms
+    at C:\Users\27217\.cargo\registry\src\index.crates.io-6f17d22bba15001f\salvo_extra-0.66.2\src\logging.rs:44 on tokio-runtime-worker ThreadId(7)
+    in salvo_extra::logging::Request with remote_addr=socket://127.0.0.1:62432 version=HTTP/1.1 method=GET path=http://127.0.0.1:5800/assets/js/vendor/bootstrap.min.js
+
+  2024-04-01 09:15:56.651  INFO salvo_extra::logging: Response, status: 304 Not Modified, duration: 4.6661ms
+    at C:\Users\27217\.cargo\registry\src\index.crates.io-6f17d22bba15001f\salvo_extra-0.66.2\src\logging.rs:44 on tokio-runtime-worker ThreadId(13)
+    in salvo_extra::logging::Request with remote_addr=socket://127.0.0.1:62430 version=HTTP/1.1 method=GET path=http://127.0.0.1:5800/assets/js/vendor/jquery.min.js
+
+  2024-04-01 09:15:56.664  INFO salvo_extra::logging: Response, status: 304 Not Modified, duration: 2.3415ms
+    at C:\Users\27217\.cargo\registry\src\index.crates.io-6f17d22bba15001f\salvo_extra-0.66.2\src\logging.rs:44 on tokio-runtime-worker ThreadId(16)
+    in salvo_extra::logging::Request with remote_addr=socket://127.0.0.1:62430 version=HTTP/1.1 method=GET path=http://127.0.0.1:5800/assets/js/alpinejs.js
+
+  2024-04-01 09:16:02.345  INFO okudera::routers::user: user zhangsan login in
+    at src\routers\user.rs:79 on tokio-runtime-worker ThreadId(7)
+    in salvo_extra::logging::Request with remote_addr=socket://127.0.0.1:62430 version=HTTP/1.1 method=POST path=http://127.0.0.1:5800/api/login
+
+  2024-04-01 09:16:02.345  INFO okudera::routers::user: add user jwttoken 【eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VybmFtZSI6InpoYW5nc2FuIiwidXNlcl9pZCI6ImNkZDBlMDgwLTViYjEtNDQ0Mi1iNmY3LTJiYTYwZGJkMDU1NSIsImV4cCI6MTcxMTk2ODk2Mn0.DHZVkUyXIIJx_7bOVGs-VFW7yGuXAGArRZMoj_rTUk4】
+    at src\routers\user.rs:80 on tokio-runtime-worker ThreadId(7)
+    in salvo_extra::logging::Request with remote_addr=socket://127.0.0.1:62430 version=HTTP/1.1 method=POST path=http://127.0.0.1:5800/api/login
+
+  2024-04-01 09:16:02.345  INFO salvo_extra::logging: Response, status: 302 Found, duration: 345.2776ms
+    at C:\Users\27217\.cargo\registry\src\index.crates.io-6f17d22bba15001f\salvo_extra-0.66.2\src\logging.rs:44 on tokio-runtime-worker ThreadId(7)
+    in salvo_extra::logging::Request with remote_addr=socket://127.0.0.1:62430 version=HTTP/1.1 method=POST path=http://127.0.0.1:5800/api/login
+
+  2024-04-01 09:16:02.362  INFO salvo_extra::logging: Response, status: 200 OK, duration: 165.6µs
+    at C:\Users\27217\.cargo\registry\src\index.crates.io-6f17d22bba15001f\salvo_extra-0.66.2\src\logging.rs:44 on tokio-runtime-worker ThreadId(16)
+    in salvo_extra::logging::Request with remote_addr=socket://127.0.0.1:62430 version=HTTP/1.1 method=GET path=http://127.0.0.1:5800/index
+
+  2024-04-01 09:16:02.379  INFO salvo_extra::logging: Response, status: 303 See Other, duration: 799.6µs
+    at C:\Users\27217\.cargo\registry\src\index.crates.io-6f17d22bba15001f\salvo_extra-0.66.2\src\logging.rs:44 on tokio-runtime-worker ThreadId(16)
+    in salvo_extra::logging::Request with remote_addr=socket://127.0.0.1:62430 version=HTTP/1.1 method=GET path=http://127.0.0.1:5800/login
+
+  2024-04-01 09:16:02.387  INFO salvo_extra::logging: Response, status: 200 OK, duration: 255.2µs
+    at C:\Users\27217\.cargo\registry\src\index.crates.io-6f17d22bba15001f\salvo_extra-0.66.2\src\logging.rs:44 on tokio-runtime-worker ThreadId(7)
+    in salvo_extra::logging::Request with remote_addr=socket://127.0.0.1:62430 version=HTTP/1.1 method=GET path=http://127.0.0.1:5800/index
+
+  2024-04-01 09:16:02.430  INFO salvo_extra::logging: Response, status: 304 Not Modified, duration: 8.1056ms
+    at C:\Users\27217\.cargo\registry\src\index.crates.io-6f17d22bba15001f\salvo_extra-0.66.2\src\logging.rs:44 on tokio-runtime-worker ThreadId(7)
+    in salvo_extra::logging::Request with remote_addr=socket://127.0.0.1:62430 version=HTTP/1.1 method=GET path=http://127.0.0.1:5800/assets/css/main.css
+
+  2024-04-01 09:16:02.432  INFO salvo_extra::logging: Response, status: 304 Not Modified, duration: 1.5812ms
+    at C:\Users\27217\.cargo\registry\src\index.crates.io-6f17d22bba15001f\salvo_extra-0.66.2\src\logging.rs:44 on tokio-runtime-worker ThreadId(16)
+    in salvo_extra::logging::Request with remote_addr=socket://127.0.0.1:62432 version=HTTP/1.1 method=GET path=http://127.0.0.1:5800/assets/css/vendor/aos.css
+
+  2024-04-01 09:16:02.434  INFO salvo_extra::logging: Response, status: 304 Not Modified, duration: 3.1427ms
+    at C:\Users\27217\.cargo\registry\src\index.crates.io-6f17d22bba15001f\salvo_extra-0.66.2\src\logging.rs:44 on tokio-runtime-worker ThreadId(17)
+    in salvo_extra::logging::Request with remote_addr=socket://127.0.0.1:62431 version=HTTP/1.1 method=GET path=http://127.0.0.1:5800/assets/js/vendor/jquery.min.js
+
+  2024-04-01 09:16:02.434  INFO salvo_extra::logging: Response, status: 304 Not Modified, duration: 3.8736ms
+    at C:\Users\27217\.cargo\registry\src\index.crates.io-6f17d22bba15001f\salvo_extra-0.66.2\src\logging.rs:44 on tokio-runtime-worker ThreadId(7)
+    in salvo_extra::logging::Request with remote_addr=socket://127.0.0.1:62428 version=HTTP/1.1 method=GET path=http://127.0.0.1:5800/assets/img/demo/dashb.png
+
+  2024-04-01 09:16:02.435  INFO salvo_extra::logging: Response, status: 304 Not Modified, duration: 1.1023ms
+    at C:\Users\27217\.cargo\registry\src\index.crates.io-6f17d22bba15001f\salvo_extra-0.66.2\src\logging.rs:44 on tokio-runtime-worker ThreadId(16)
+    in salvo_extra::logging::Request with remote_addr=socket://127.0.0.1:62430 version=HTTP/1.1 method=GET path=http://127.0.0.1:5800/assets/js/vendor/popper.min.js
+
+  2024-04-01 09:16:02.436  INFO salvo_extra::logging: Response, status: 304 Not Modified, duration: 1.0733ms
+    at C:\Users\27217\.cargo\registry\src\index.crates.io-6f17d22bba15001f\salvo_extra-0.66.2\src\logging.rs:44 on tokio-runtime-worker ThreadId(17)
+    in salvo_extra::logging::Request with remote_addr=socket://127.0.0.1:62432 version=HTTP/1.1 method=GET path=http://127.0.0.1:5800/assets/js/vendor/share.js
+
+  2024-04-01 09:16:02.437  INFO salvo_extra::logging: Response, status: 304 Not Modified, duration: 2.1705ms
+    at C:\Users\27217\.cargo\registry\src\index.crates.io-6f17d22bba15001f\salvo_extra-0.66.2\src\logging.rs:44 on tokio-runtime-worker ThreadId(7)
+    in salvo_extra::logging::Request with remote_addr=socket://127.0.0.1:62433 version=HTTP/1.1 method=GET path=http://127.0.0.1:5800/assets/js/vendor/bootstrap.min.js
+
+  2024-04-01 09:16:02.439  INFO salvo_extra::logging: Response, status: 304 Not Modified, duration: 640.4µs
+    at C:\Users\27217\.cargo\registry\src\index.crates.io-6f17d22bba15001f\salvo_extra-0.66.2\src\logging.rs:44 on tokio-runtime-worker ThreadId(2)
+    in salvo_extra::logging::Request with remote_addr=socket://127.0.0.1:62430 version=HTTP/1.1 method=GET path=http://127.0.0.1:5800/assets/js/functions.js
+
+  2024-04-01 09:16:02.441  INFO salvo_extra::logging: Response, status: 304 Not Modified, duration: 797.1µs
+    at C:\Users\27217\.cargo\registry\src\index.crates.io-6f17d22bba15001f\salvo_extra-0.66.2\src\logging.rs:44 on tokio-runtime-worker ThreadId(2)
+    in salvo_extra::logging::Request with remote_addr=socket://127.0.0.1:62432 version=HTTP/1.1 method=GET path=http://127.0.0.1:5800/assets/js/vendor/aos.js
+
+  2024-04-01 09:16:02.442  INFO salvo_extra::logging: Response, status: 304 Not Modified, duration: 1.3292ms
+    at C:\Users\27217\.cargo\registry\src\index.crates.io-6f17d22bba15001f\salvo_extra-0.66.2\src\logging.rs:44 on tokio-runtime-worker ThreadId(2)
+    in salvo_extra::logging::Request with remote_addr=socket://127.0.0.1:62433 version=HTTP/1.1 method=GET path=http://127.0.0.1:5800/assets/js/alpinejs.js
+
+  2024-04-01 09:16:05.626  INFO salvo_extra::logging: Response, status: 303 See Other, duration: 159.1µs
+    at C:\Users\27217\.cargo\registry\src\index.crates.io-6f17d22bba15001f\salvo_extra-0.66.2\src\logging.rs:44 on tokio-runtime-worker ThreadId(2)
+    in salvo_extra::logging::Request with remote_addr=socket://127.0.0.1:62433 version=HTTP/1.1 method=POST path=http://127.0.0.1:5800/api/users/logout
+
+  2024-04-01 09:16:05.631  INFO salvo_extra::logging: Response, status: 200 OK, duration: 457µs
+    at C:\Users\27217\.cargo\registry\src\index.crates.io-6f17d22bba15001f\salvo_extra-0.66.2\src\logging.rs:44 on tokio-runtime-worker ThreadId(2)
+    in salvo_extra::logging::Request with remote_addr=socket://127.0.0.1:62433 version=HTTP/1.1 method=GET path=http://127.0.0.1:5800/login
+
+  2024-04-01 09:16:05.648  INFO salvo_extra::logging: Response, status: 401 Unauthorized, duration: 42µs
+    at C:\Users\27217\.cargo\registry\src\index.crates.io-6f17d22bba15001f\salvo_extra-0.66.2\src\logging.rs:44 on tokio-runtime-worker ThreadId(17)
+    in salvo_extra::logging::Request with remote_addr=socket://127.0.0.1:62433 version=HTTP/1.1 method=GET path=http://127.0.0.1:5800/index
+
+  2024-04-01 09:16:05.657  INFO salvo_extra::logging: Response, status: 200 OK, duration: 297.4µs
+    at C:\Users\27217\.cargo\registry\src\index.crates.io-6f17d22bba15001f\salvo_extra-0.66.2\src\logging.rs:44 on tokio-runtime-worker ThreadId(17)
+    in salvo_extra::logging::Request with remote_addr=socket://127.0.0.1:62433 version=HTTP/1.1 method=GET path=http://127.0.0.1:5800/login
+
+  2024-04-01 09:16:05.706  INFO salvo_extra::logging: Response, status: 304 Not Modified, duration: 6.6206ms
+    at C:\Users\27217\.cargo\registry\src\index.crates.io-6f17d22bba15001f\salvo_extra-0.66.2\src\logging.rs:44 on tokio-runtime-worker ThreadId(2)
+    in salvo_extra::logging::Request with remote_addr=socket://127.0.0.1:62433 version=HTTP/1.1 method=GET path=http://127.0.0.1:5800/assets/css/main.css
+
+  2024-04-01 09:16:05.707  INFO salvo_extra::logging: Response, status: 304 Not Modified, duration: 528.6µs
+    at C:\Users\27217\.cargo\registry\src\index.crates.io-6f17d22bba15001f\salvo_extra-0.66.2\src\logging.rs:44 on tokio-runtime-worker ThreadId(2)
+    in salvo_extra::logging::Request with remote_addr=socket://127.0.0.1:62429 version=HTTP/1.1 method=GET path=http://127.0.0.1:5800/assets/js/functions.js
+
+  2024-04-01 09:16:05.708  INFO salvo_extra::logging: Response, status: 304 Not Modified, duration: 1.3106ms
+    at C:\Users\27217\.cargo\registry\src\index.crates.io-6f17d22bba15001f\salvo_extra-0.66.2\src\logging.rs:44 on tokio-runtime-worker ThreadId(12)
+    in salvo_extra::logging::Request with remote_addr=socket://127.0.0.1:62432 version=HTTP/1.1 method=GET path=http://127.0.0.1:5800/assets/css/vendor/aos.css
+
+  2024-04-01 09:16:05.709  INFO salvo_extra::logging: Response, status: 304 Not Modified, duration: 2.2809ms
+    at C:\Users\27217\.cargo\registry\src\index.crates.io-6f17d22bba15001f\salvo_extra-0.66.2\src\logging.rs:44 on tokio-runtime-worker ThreadId(16)
+    in salvo_extra::logging::Request with remote_addr=socket://127.0.0.1:62431 version=HTTP/1.1 method=GET path=http://127.0.0.1:5800/assets/js/vendor/popper.min.js
+
+  2024-04-01 09:16:05.709  INFO salvo_extra::logging: Response, status: 304 Not Modified, duration: 940.2µs
+    at C:\Users\27217\.cargo\registry\src\index.crates.io-6f17d22bba15001f\salvo_extra-0.66.2\src\logging.rs:44 on tokio-runtime-worker ThreadId(13)
+    in salvo_extra::logging::Request with remote_addr=socket://127.0.0.1:62433 version=HTTP/1.1 method=GET path=http://127.0.0.1:5800/assets/js/vendor/aos.js
+
+  2024-04-01 09:16:05.710  INFO salvo_extra::logging: Response, status: 304 Not Modified, duration: 3.2071ms
+    at C:\Users\27217\.cargo\registry\src\index.crates.io-6f17d22bba15001f\salvo_extra-0.66.2\src\logging.rs:44 on tokio-runtime-worker ThreadId(7)
+    in salvo_extra::logging::Request with remote_addr=socket://127.0.0.1:62428 version=HTTP/1.1 method=GET path=http://127.0.0.1:5800/assets/js/vendor/bootstrap.min.js
+
+  2024-04-01 09:16:05.711  INFO salvo_extra::logging: Response, status: 304 Not Modified, duration: 4.274ms
+    at C:\Users\27217\.cargo\registry\src\index.crates.io-6f17d22bba15001f\salvo_extra-0.66.2\src\logging.rs:44 on tokio-runtime-worker ThreadId(17)
+    in salvo_extra::logging::Request with remote_addr=socket://127.0.0.1:62430 version=HTTP/1.1 method=GET path=http://127.0.0.1:5800/assets/js/vendor/jquery.min.js
+
+  2024-04-01 09:16:05.715  INFO salvo_extra::logging: Response, status: 304 Not Modified, duration: 1.4667ms
+    at C:\Users\27217\.cargo\registry\src\index.crates.io-6f17d22bba15001f\salvo_extra-0.66.2\src\logging.rs:44 on tokio-runtime-worker ThreadId(12)
+    in salvo_extra::logging::Request with remote_addr=socket://127.0.0.1:62428 version=HTTP/1.1 method=GET path=http://127.0.0.1:5800/assets/js/alpinejs.js
+
+  2024-04-01 09:16:11.114  INFO salvo_extra::logging: Response, status: 401 Unauthorized, duration: 40.9µs
+    at C:\Users\27217\.cargo\registry\src\index.crates.io-6f17d22bba15001f\salvo_extra-0.66.2\src\logging.rs:44 on tokio-runtime-worker ThreadId(12)
+    in salvo_extra::logging::Request with remote_addr=socket://127.0.0.1:62428 version=HTTP/1.1 method=GET path=http://127.0.0.1:5800/index
+
+  2024-04-01 09:16:11.122  INFO salvo_extra::logging: Response, status: 200 OK, duration: 454.1µs
+    at C:\Users\27217\.cargo\registry\src\index.crates.io-6f17d22bba15001f\salvo_extra-0.66.2\src\logging.rs:44 on tokio-runtime-worker ThreadId(12)
+    in salvo_extra::logging::Request with remote_addr=socket://127.0.0.1:62428 version=HTTP/1.1 method=GET path=http://127.0.0.1:5800/login
+
+  2024-04-01 09:16:11.178  INFO salvo_extra::logging: Response, status: 304 Not Modified, duration: 7.3598ms
+    at C:\Users\27217\.cargo\registry\src\index.crates.io-6f17d22bba15001f\salvo_extra-0.66.2\src\logging.rs:44 on tokio-runtime-worker ThreadId(7)
+    in salvo_extra::logging::Request with remote_addr=socket://127.0.0.1:62428 version=HTTP/1.1 method=GET path=http://127.0.0.1:5800/assets/css/main.css
+
+  2024-04-01 09:16:11.179  INFO salvo_extra::logging: Response, status: 304 Not Modified, duration: 668.9µs
+    at C:\Users\27217\.cargo\registry\src\index.crates.io-6f17d22bba15001f\salvo_extra-0.66.2\src\logging.rs:44 on tokio-runtime-worker ThreadId(7)
+    in salvo_extra::logging::Request with remote_addr=socket://127.0.0.1:62429 version=HTTP/1.1 method=GET path=http://127.0.0.1:5800/assets/js/functions.js
+
+  2024-04-01 09:16:11.180  INFO salvo_extra::logging: Response, status: 304 Not Modified, duration: 1.1503ms
+    at C:\Users\27217\.cargo\registry\src\index.crates.io-6f17d22bba15001f\salvo_extra-0.66.2\src\logging.rs:44 on tokio-runtime-worker ThreadId(13)
+    in salvo_extra::logging::Request with remote_addr=socket://127.0.0.1:62431 version=HTTP/1.1 method=GET path=http://127.0.0.1:5800/assets/js/vendor/popper.min.js
+
+  2024-04-01 09:16:11.180  INFO salvo_extra::logging: Response, status: 304 Not Modified, duration: 1.2095ms
+    at C:\Users\27217\.cargo\registry\src\index.crates.io-6f17d22bba15001f\salvo_extra-0.66.2\src\logging.rs:44 on tokio-runtime-worker ThreadId(16)
+    in salvo_extra::logging::Request with remote_addr=socket://127.0.0.1:62430 version=HTTP/1.1 method=GET path=http://127.0.0.1:5800/assets/css/vendor/aos.css
+
+  2024-04-01 09:16:11.181  INFO salvo_extra::logging: Response, status: 304 Not Modified, duration: 1.8701ms
+    at C:\Users\27217\.cargo\registry\src\index.crates.io-6f17d22bba15001f\salvo_extra-0.66.2\src\logging.rs:44 on tokio-runtime-worker ThreadId(17)
+    in salvo_extra::logging::Request with remote_addr=socket://127.0.0.1:62432 version=HTTP/1.1 method=GET path=http://127.0.0.1:5800/assets/js/vendor/bootstrap.min.js
+
+  2024-04-01 09:16:11.182  INFO salvo_extra::logging: Response, status: 304 Not Modified, duration: 2.9674ms
+    at C:\Users\27217\.cargo\registry\src\index.crates.io-6f17d22bba15001f\salvo_extra-0.66.2\src\logging.rs:44 on tokio-runtime-worker ThreadId(12)
+    in salvo_extra::logging::Request with remote_addr=socket://127.0.0.1:62433 version=HTTP/1.1 method=GET path=http://127.0.0.1:5800/assets/js/vendor/jquery.min.js
+
+  2024-04-01 09:16:11.182  INFO salvo_extra::logging: Response, status: 304 Not Modified, duration: 793.7µs
+    at C:\Users\27217\.cargo\registry\src\index.crates.io-6f17d22bba15001f\salvo_extra-0.66.2\src\logging.rs:44 on tokio-runtime-worker ThreadId(2)
+    in salvo_extra::logging::Request with remote_addr=socket://127.0.0.1:62428 version=HTTP/1.1 method=GET path=http://127.0.0.1:5800/assets/js/vendor/aos.js
+
+  2024-04-01 09:16:11.188  INFO salvo_extra::logging: Response, status: 304 Not Modified, duration: 1.7575ms
+    at C:\Users\27217\.cargo\registry\src\index.crates.io-6f17d22bba15001f\salvo_extra-0.66.2\src\logging.rs:44 on tokio-runtime-worker ThreadId(17)
+    in salvo_extra::logging::Request with remote_addr=socket://127.0.0.1:62428 version=HTTP/1.1 method=GET path=http://127.0.0.1:5800/assets/js/alpinejs.js
+
+  2024-04-01 09:16:17.017  INFO salvo_extra::logging: Response, status: 500 Internal Server Error, duration: 339.5624ms
+    at C:\Users\27217\.cargo\registry\src\index.crates.io-6f17d22bba15001f\salvo_extra-0.66.2\src\logging.rs:44 on tokio-runtime-worker ThreadId(17)
+    in salvo_extra::logging::Request with remote_addr=socket://127.0.0.1:62428 version=HTTP/1.1 method=POST path=http://127.0.0.1:5800/api/login
+
+  2024-04-01 09:16:19.689  INFO okudera::routers::user: user zhangsan login in
+    at src\routers\user.rs:79 on tokio-runtime-worker ThreadId(17)
+    in salvo_extra::logging::Request with remote_addr=socket://127.0.0.1:62428 version=HTTP/1.1 method=POST path=http://127.0.0.1:5800/api/login
+
+  2024-04-01 09:16:19.689  INFO okudera::routers::user: add user jwttoken 【eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VybmFtZSI6InpoYW5nc2FuIiwidXNlcl9pZCI6ImNkZDBlMDgwLTViYjEtNDQ0Mi1iNmY3LTJiYTYwZGJkMDU1NSIsImV4cCI6MTcxMTk2ODk3OX0.6y_QBik_Fc3BxGq-igy-swEQvFovnIokioTP4PexMgg】
+    at src\routers\user.rs:80 on tokio-runtime-worker ThreadId(17)
+    in salvo_extra::logging::Request with remote_addr=socket://127.0.0.1:62428 version=HTTP/1.1 method=POST path=http://127.0.0.1:5800/api/login
+
+  2024-04-01 09:16:19.689  INFO salvo_extra::logging: Response, status: 302 Found, duration: 338.6137ms
+    at C:\Users\27217\.cargo\registry\src\index.crates.io-6f17d22bba15001f\salvo_extra-0.66.2\src\logging.rs:44 on tokio-runtime-worker ThreadId(17)
+    in salvo_extra::logging::Request with remote_addr=socket://127.0.0.1:62428 version=HTTP/1.1 method=POST path=http://127.0.0.1:5800/api/login
+
+  2024-04-01 09:16:19.694  INFO salvo_extra::logging: Response, status: 200 OK, duration: 107.3µs
+    at C:\Users\27217\.cargo\registry\src\index.crates.io-6f17d22bba15001f\salvo_extra-0.66.2\src\logging.rs:44 on tokio-runtime-worker ThreadId(12)
+    in salvo_extra::logging::Request with remote_addr=socket://127.0.0.1:62428 version=HTTP/1.1 method=GET path=http://127.0.0.1:5800/index
+
+  2024-04-01 09:16:19.835  INFO salvo_extra::logging: Response, status: 303 See Other, duration: 594.4µs
+    at C:\Users\27217\.cargo\registry\src\index.crates.io-6f17d22bba15001f\salvo_extra-0.66.2\src\logging.rs:44 on tokio-runtime-worker ThreadId(12)
+    in salvo_extra::logging::Request with remote_addr=socket://127.0.0.1:62428 version=HTTP/1.1 method=GET path=http://127.0.0.1:5800/login
+
+  2024-04-01 09:16:19.843  INFO salvo_extra::logging: Response, status: 200 OK, duration: 199.2µs
+    at C:\Users\27217\.cargo\registry\src\index.crates.io-6f17d22bba15001f\salvo_extra-0.66.2\src\logging.rs:44 on tokio-runtime-worker ThreadId(17)
+    in salvo_extra::logging::Request with remote_addr=socket://127.0.0.1:62428 version=HTTP/1.1 method=GET path=http://127.0.0.1:5800/index
+
+  2024-04-01 09:16:19.887  INFO salvo_extra::logging: Response, status: 304 Not Modified, duration: 8.5015ms
+    at C:\Users\27217\.cargo\registry\src\index.crates.io-6f17d22bba15001f\salvo_extra-0.66.2\src\logging.rs:44 on tokio-runtime-worker ThreadId(17)
+    in salvo_extra::logging::Request with remote_addr=socket://127.0.0.1:62428 version=HTTP/1.1 method=GET path=http://127.0.0.1:5800/assets/css/main.css
+
+  2024-04-01 09:16:19.890  INFO salvo_extra::logging: Response, status: 304 Not Modified, duration: 1.4887ms
+    at C:\Users\27217\.cargo\registry\src\index.crates.io-6f17d22bba15001f\salvo_extra-0.66.2\src\logging.rs:44 on tokio-runtime-worker ThreadId(12)
+    in salvo_extra::logging::Request with remote_addr=socket://127.0.0.1:62433 version=HTTP/1.1 method=GET path=http://127.0.0.1:5800/assets/css/vendor/aos.css
+
+  2024-04-01 09:16:19.891  INFO salvo_extra::logging: Response, status: 304 Not Modified, duration: 2.7517ms
+    at C:\Users\27217\.cargo\registry\src\index.crates.io-6f17d22bba15001f\salvo_extra-0.66.2\src\logging.rs:44 on tokio-runtime-worker ThreadId(17)
+    in salvo_extra::logging::Request with remote_addr=socket://127.0.0.1:62430 version=HTTP/1.1 method=GET path=http://127.0.0.1:5800/assets/js/vendor/jquery.min.js
+
+  2024-04-01 09:16:19.891  INFO salvo_extra::logging: Response, status: 304 Not Modified, duration: 2.9865ms
+    at C:\Users\27217\.cargo\registry\src\index.crates.io-6f17d22bba15001f\salvo_extra-0.66.2\src\logging.rs:44 on tokio-runtime-worker ThreadId(2)
+    in salvo_extra::logging::Request with remote_addr=socket://127.0.0.1:62432 version=HTTP/1.1 method=GET path=http://127.0.0.1:5800/assets/img/demo/dashb.png
+
+  2024-04-01 09:16:19.893  INFO salvo_extra::logging: Response, status: 304 Not Modified, duration: 949.6µs
+    at C:\Users\27217\.cargo\registry\src\index.crates.io-6f17d22bba15001f\salvo_extra-0.66.2\src\logging.rs:44 on tokio-runtime-worker ThreadId(13)
+    in salvo_extra::logging::Request with remote_addr=socket://127.0.0.1:62428 version=HTTP/1.1 method=GET path=http://127.0.0.1:5800/assets/js/vendor/popper.min.js
+
+  2024-04-01 09:16:19.893  INFO salvo_extra::logging: Response, status: 304 Not Modified, duration: 449.8µs
+    at C:\Users\27217\.cargo\registry\src\index.crates.io-6f17d22bba15001f\salvo_extra-0.66.2\src\logging.rs:44 on tokio-runtime-worker ThreadId(13)
+    in salvo_extra::logging::Request with remote_addr=socket://127.0.0.1:62431 version=HTTP/1.1 method=GET path=http://127.0.0.1:5800/assets/js/vendor/share.js
+
+  2024-04-01 09:16:19.894  INFO salvo_extra::logging: Response, status: 304 Not Modified, duration: 1.8219ms
+    at C:\Users\27217\.cargo\registry\src\index.crates.io-6f17d22bba15001f\salvo_extra-0.66.2\src\logging.rs:44 on tokio-runtime-worker ThreadId(17)
+    in salvo_extra::logging::Request with remote_addr=socket://127.0.0.1:62433 version=HTTP/1.1 method=GET path=http://127.0.0.1:5800/assets/js/vendor/bootstrap.min.js
+
+  2024-04-01 09:16:19.894  INFO salvo_extra::logging: Response, status: 304 Not Modified, duration: 392.6µs
+    at C:\Users\27217\.cargo\registry\src\index.crates.io-6f17d22bba15001f\salvo_extra-0.66.2\src\logging.rs:44 on tokio-runtime-worker ThreadId(13)
+    in salvo_extra::logging::Request with remote_addr=socket://127.0.0.1:62432 version=HTTP/1.1 method=GET path=http://127.0.0.1:5800/assets/js/functions.js
+
+  2024-04-01 09:16:19.897  INFO salvo_extra::logging: Response, status: 304 Not Modified, duration: 1.1643ms
+    at C:\Users\27217\.cargo\registry\src\index.crates.io-6f17d22bba15001f\salvo_extra-0.66.2\src\logging.rs:44 on tokio-runtime-worker ThreadId(17)
+    in salvo_extra::logging::Request with remote_addr=socket://127.0.0.1:62431 version=HTTP/1.1 method=GET path=http://127.0.0.1:5800/assets/js/vendor/aos.js
+
+  2024-04-01 09:16:19.900  INFO salvo_extra::logging: Response, status: 304 Not Modified, duration: 1.9386ms
+    at C:\Users\27217\.cargo\registry\src\index.crates.io-6f17d22bba15001f\salvo_extra-0.66.2\src\logging.rs:44 on tokio-runtime-worker ThreadId(17)
+    in salvo_extra::logging::Request with remote_addr=socket://127.0.0.1:62428 version=HTTP/1.1 method=GET path=http://127.0.0.1:5800/assets/js/alpinejs.js
+
+  2024-04-01 09:27:36.153  INFO okudera: ctrl_c signal received
+    at src\main.rs:105 on tokio-runtime-worker ThreadId(7)
+
+  2024-04-01 09:27:36.154  INFO salvo_core::server: initiate graceful stop server, timeout_in_seconds: 60.0
+    at C:\Users\27217\.cargo\registry\src\index.crates.io-6f17d22bba15001f\salvo_core-0.66.2\src\server.rs:255 on main ThreadId(1)
+
+  2024-04-01 09:27:36.155  INFO salvo_core::server: server stopped
+    at C:\Users\27217\.cargo\registry\src\index.crates.io-6f17d22bba15001f\salvo_core-0.66.2\src\server.rs:317 on main ThreadId(1)
+
+  2024-04-01 09:27:55.714  INFO okudera: log level: info
+    at src\main.rs:34 on main ThreadId(1)
+
+  2024-04-01 09:27:55.748  INFO salvo_core::server: listening [HTTP/1.1] on http://0.0.0.0:5800
+    at C:\Users\27217\.cargo\registry\src\index.crates.io-6f17d22bba15001f\salvo_core-0.66.2\src\server.rs:232 on main ThreadId(1)
+
+  2024-04-01 09:27:57.300  INFO salvo_extra::logging: Response, status: 303 See Other, duration: 4.3995ms
+    at C:\Users\27217\.cargo\registry\src\index.crates.io-6f17d22bba15001f\salvo_extra-0.66.2\src\logging.rs:44 on tokio-runtime-worker ThreadId(5)
+    in salvo_extra::logging::Request with remote_addr=socket://127.0.0.1:63040 version=HTTP/1.1 method=GET path=http://127.0.0.1:5800/login
+
+  2024-04-01 09:27:57.311 ERROR salvo_extra::catch_panic: panic occurred, error: Any { .. }
+    at C:\Users\27217\.cargo\registry\src\index.crates.io-6f17d22bba15001f\salvo_extra-0.66.2\src\catch_panic.rs:27 on tokio-runtime-worker ThreadId(17)
+    in salvo_extra::logging::Request with remote_addr=socket://127.0.0.1:63040 version=HTTP/1.1 method=GET path=http://127.0.0.1:5800/index
+
+  2024-04-01 09:27:57.311  INFO salvo_extra::logging: Response, status: 500 Internal Server Error, duration: 1.6074ms
+    at C:\Users\27217\.cargo\registry\src\index.crates.io-6f17d22bba15001f\salvo_extra-0.66.2\src\logging.rs:44 on tokio-runtime-worker ThreadId(17)
+    in salvo_extra::logging::Request with remote_addr=socket://127.0.0.1:63040 version=HTTP/1.1 method=GET path=http://127.0.0.1:5800/index
+
+  2024-04-01 09:28:11.381 ERROR salvo_extra::catch_panic: panic occurred, error: Any { .. }
+    at C:\Users\27217\.cargo\registry\src\index.crates.io-6f17d22bba15001f\salvo_extra-0.66.2\src\catch_panic.rs:27 on tokio-runtime-worker ThreadId(5)
+    in salvo_extra::logging::Request with remote_addr=socket://127.0.0.1:63040 version=HTTP/1.1 method=GET path=http://127.0.0.1:5800/index
+
+  2024-04-01 09:28:11.382  INFO salvo_extra::logging: Response, status: 500 Internal Server Error, duration: 3.9293ms
+    at C:\Users\27217\.cargo\registry\src\index.crates.io-6f17d22bba15001f\salvo_extra-0.66.2\src\logging.rs:44 on tokio-runtime-worker ThreadId(5)
+    in salvo_extra::logging::Request with remote_addr=socket://127.0.0.1:63040 version=HTTP/1.1 method=GET path=http://127.0.0.1:5800/index
+
+  2024-04-01 09:38:31.476  INFO okudera: ctrl_c signal received
+    at src\main.rs:105 on tokio-runtime-worker ThreadId(17)
+
+  2024-04-01 09:38:31.476  INFO salvo_core::server: initiate graceful stop server, timeout_in_seconds: 60.0
+    at C:\Users\27217\.cargo\registry\src\index.crates.io-6f17d22bba15001f\salvo_core-0.66.2\src\server.rs:255 on main ThreadId(1)
+
+  2024-04-01 09:38:31.476  INFO salvo_core::server: wait for all connections to close.
+    at C:\Users\27217\.cargo\registry\src\index.crates.io-6f17d22bba15001f\salvo_core-0.66.2\src\server.rs:313 on main ThreadId(1)
+
+  2024-04-01 09:38:31.476  INFO salvo_core::conn::proto: closing connection due to inactivity
+    at C:\Users\27217\.cargo\registry\src\index.crates.io-6f17d22bba15001f\salvo_core-0.66.2\src\conn\proto.rs:117 on tokio-runtime-worker ThreadId(17)
+
+  2024-04-01 09:38:55.838  INFO okudera: log level: info
+    at src\main.rs:34 on main ThreadId(1)
+
+  2024-04-01 09:38:55.868  INFO salvo_core::server: listening [HTTP/1.1] on http://0.0.0.0:5800
+    at C:\Users\27217\.cargo\registry\src\index.crates.io-6f17d22bba15001f\salvo_core-0.66.2\src\server.rs:232 on main ThreadId(1)
+
+  2024-04-01 09:38:58.214  INFO salvo_extra::logging: Response, status: 303 See Other, duration: 1.6319ms
+    at C:\Users\27217\.cargo\registry\src\index.crates.io-6f17d22bba15001f\salvo_extra-0.66.2\src\logging.rs:44 on tokio-runtime-worker ThreadId(7)
+    in salvo_extra::logging::Request with remote_addr=socket://127.0.0.1:63418 version=HTTP/1.1 method=GET path=http://127.0.0.1:5800/login
+
+  2024-04-01 09:38:58.224  INFO salvo_extra::logging: Response, status: 200 OK, duration: 2.4714ms
+    at C:\Users\27217\.cargo\registry\src\index.crates.io-6f17d22bba15001f\salvo_extra-0.66.2\src\logging.rs:44 on tokio-runtime-worker ThreadId(11)
+    in salvo_extra::logging::Request with remote_addr=socket://127.0.0.1:63418 version=HTTP/1.1 method=GET path=http://127.0.0.1:5800/index
+
+  2024-04-01 09:38:58.296  INFO salvo_extra::logging: Response, status: 304 Not Modified, duration: 11.3494ms
+    at C:\Users\27217\.cargo\registry\src\index.crates.io-6f17d22bba15001f\salvo_extra-0.66.2\src\logging.rs:44 on tokio-runtime-worker ThreadId(7)
+    in salvo_extra::logging::Request with remote_addr=socket://127.0.0.1:63418 version=HTTP/1.1 method=GET path=http://127.0.0.1:5800/assets/css/main.css
+
+  2024-04-01 09:38:58.300  INFO salvo_extra::logging: Response, status: 304 Not Modified, duration: 2.1882ms
+    at C:\Users\27217\.cargo\registry\src\index.crates.io-6f17d22bba15001f\salvo_extra-0.66.2\src\logging.rs:44 on tokio-runtime-worker ThreadId(7)
+    in salvo_extra::logging::Request with remote_addr=socket://127.0.0.1:63417 version=HTTP/1.1 method=GET path=http://127.0.0.1:5800/assets/css/vendor/aos.css
+
+  2024-04-01 09:38:58.303  INFO salvo_extra::logging: Response, status: 304 Not Modified, duration: 5.2235ms
+    at C:\Users\27217\.cargo\registry\src\index.crates.io-6f17d22bba15001f\salvo_extra-0.66.2\src\logging.rs:44 on tokio-runtime-worker ThreadId(15)
+    in salvo_extra::logging::Request with remote_addr=socket://127.0.0.1:63419 version=HTTP/1.1 method=GET path=http://127.0.0.1:5800/assets/img/demo/dashb.png
+
+  2024-04-01 09:38:58.359  INFO salvo_extra::logging: Response, status: 304 Not Modified, duration: 3.156ms
+    at C:\Users\27217\.cargo\registry\src\index.crates.io-6f17d22bba15001f\salvo_extra-0.66.2\src\logging.rs:44 on tokio-runtime-worker ThreadId(7)
+    in salvo_extra::logging::Request with remote_addr=socket://127.0.0.1:63419 version=HTTP/1.1 method=GET path=http://127.0.0.1:5800/assets/js/vendor/jquery.min.js
+
+  2024-04-01 09:38:58.361  INFO salvo_extra::logging: Response, status: 304 Not Modified, duration: 1.0385ms
+    at C:\Users\27217\.cargo\registry\src\index.crates.io-6f17d22bba15001f\salvo_extra-0.66.2\src\logging.rs:44 on tokio-runtime-worker ThreadId(11)
+    in salvo_extra::logging::Request with remote_addr=socket://127.0.0.1:63420 version=HTTP/1.1 method=GET path=http://127.0.0.1:5800/assets/js/vendor/share.js
+
+  2024-04-01 09:38:58.361  INFO salvo_extra::logging: Response, status: 304 Not Modified, duration: 394.4µs
+    at C:\Users\27217\.cargo\registry\src\index.crates.io-6f17d22bba15001f\salvo_extra-0.66.2\src\logging.rs:44 on tokio-runtime-worker ThreadId(13)
+    in salvo_extra::logging::Request with remote_addr=socket://127.0.0.1:63421 version=HTTP/1.1 method=GET path=http://127.0.0.1:5800/assets/js/functions.js
+
+  2024-04-01 09:38:58.361  INFO salvo_extra::logging: Response, status: 304 Not Modified, duration: 1.6301ms
+    at C:\Users\27217\.cargo\registry\src\index.crates.io-6f17d22bba15001f\salvo_extra-0.66.2\src\logging.rs:44 on tokio-runtime-worker ThreadId(15)
+    in salvo_extra::logging::Request with remote_addr=socket://127.0.0.1:63417 version=HTTP/1.1 method=GET path=http://127.0.0.1:5800/assets/js/vendor/popper.min.js
+
+  2024-04-01 09:38:58.362  INFO salvo_extra::logging: Response, status: 304 Not Modified, duration: 1.4968ms
+    at C:\Users\27217\.cargo\registry\src\index.crates.io-6f17d22bba15001f\salvo_extra-0.66.2\src\logging.rs:44 on tokio-runtime-worker ThreadId(14)
+    in salvo_extra::logging::Request with remote_addr=socket://127.0.0.1:63422 version=HTTP/1.1 method=GET path=http://127.0.0.1:5800/assets/js/vendor/aos.js
+
+  2024-04-01 09:38:58.362  INFO salvo_extra::logging: Response, status: 304 Not Modified, duration: 2.3775ms
+    at C:\Users\27217\.cargo\registry\src\index.crates.io-6f17d22bba15001f\salvo_extra-0.66.2\src\logging.rs:44 on tokio-runtime-worker ThreadId(7)
+    in salvo_extra::logging::Request with remote_addr=socket://127.0.0.1:63418 version=HTTP/1.1 method=GET path=http://127.0.0.1:5800/assets/js/vendor/bootstrap.min.js
+
+  2024-04-01 09:38:58.367  INFO salvo_extra::logging: Response, status: 304 Not Modified, duration: 1.3194ms
+    at C:\Users\27217\.cargo\registry\src\index.crates.io-6f17d22bba15001f\salvo_extra-0.66.2\src\logging.rs:44 on tokio-runtime-worker ThreadId(12)
+    in salvo_extra::logging::Request with remote_addr=socket://127.0.0.1:63418 version=HTTP/1.1 method=GET path=http://127.0.0.1:5800/assets/js/alpinejs.js
+
+  2024-04-01 09:39:08.592  INFO salvo_extra::logging: Response, status: 200 OK, duration: 1.8441ms
+    at C:\Users\27217\.cargo\registry\src\index.crates.io-6f17d22bba15001f\salvo_extra-0.66.2\src\logging.rs:44 on tokio-runtime-worker ThreadId(12)
+    in salvo_extra::logging::Request with remote_addr=socket://127.0.0.1:63418 version=HTTP/1.1 method=GET path=http://127.0.0.1:5800/index
+
+  2024-04-01 09:39:08.785  INFO salvo_extra::logging: Response, status: 304 Not Modified, duration: 6.7191ms
+    at C:\Users\27217\.cargo\registry\src\index.crates.io-6f17d22bba15001f\salvo_extra-0.66.2\src\logging.rs:44 on tokio-runtime-worker ThreadId(14)
+    in salvo_extra::logging::Request with remote_addr=socket://127.0.0.1:63418 version=HTTP/1.1 method=GET path=http://127.0.0.1:5800/assets/css/main.css
+
+  2024-04-01 09:39:08.787  INFO salvo_extra::logging: Response, status: 304 Not Modified, duration: 1.2896ms
+    at C:\Users\27217\.cargo\registry\src\index.crates.io-6f17d22bba15001f\salvo_extra-0.66.2\src\logging.rs:44 on tokio-runtime-worker ThreadId(12)
+    in salvo_extra::logging::Request with remote_addr=socket://127.0.0.1:63422 version=HTTP/1.1 method=GET path=http://127.0.0.1:5800/assets/css/vendor/aos.css
+
+  2024-04-01 09:39:08.789  INFO salvo_extra::logging: Response, status: 304 Not Modified, duration: 2.6379ms
+    at C:\Users\27217\.cargo\registry\src\index.crates.io-6f17d22bba15001f\salvo_extra-0.66.2\src\logging.rs:44 on tokio-runtime-worker ThreadId(14)
+    in salvo_extra::logging::Request with remote_addr=socket://127.0.0.1:63417 version=HTTP/1.1 method=GET path=http://127.0.0.1:5800/assets/js/vendor/jquery.min.js
+
+  2024-04-01 09:39:08.789  INFO salvo_extra::logging: Response, status: 304 Not Modified, duration: 3.1313ms
+    at C:\Users\27217\.cargo\registry\src\index.crates.io-6f17d22bba15001f\salvo_extra-0.66.2\src\logging.rs:44 on tokio-runtime-worker ThreadId(13)
+    in salvo_extra::logging::Request with remote_addr=socket://127.0.0.1:63421 version=HTTP/1.1 method=GET path=http://127.0.0.1:5800/assets/img/demo/dashb.png
+
+  2024-04-01 09:39:08.790  INFO salvo_extra::logging: Response, status: 304 Not Modified, duration: 981.2µs
+    at C:\Users\27217\.cargo\registry\src\index.crates.io-6f17d22bba15001f\salvo_extra-0.66.2\src\logging.rs:44 on tokio-runtime-worker ThreadId(15)
+    in salvo_extra::logging::Request with remote_addr=socket://127.0.0.1:63418 version=HTTP/1.1 method=GET path=http://127.0.0.1:5800/assets/js/vendor/popper.min.js
+
+  2024-04-01 09:39:08.791  INFO salvo_extra::logging: Response, status: 304 Not Modified, duration: 578.8µs
+    at C:\Users\27217\.cargo\registry\src\index.crates.io-6f17d22bba15001f\salvo_extra-0.66.2\src\logging.rs:44 on tokio-runtime-worker ThreadId(15)
+    in salvo_extra::logging::Request with remote_addr=socket://127.0.0.1:63422 version=HTTP/1.1 method=GET path=http://127.0.0.1:5800/assets/js/vendor/share.js
+
+  2024-04-01 09:39:08.792  INFO salvo_extra::logging: Response, status: 304 Not Modified, duration: 2.3294ms
+    at C:\Users\27217\.cargo\registry\src\index.crates.io-6f17d22bba15001f\salvo_extra-0.66.2\src\logging.rs:44 on tokio-runtime-worker ThreadId(13)
+    in salvo_extra::logging::Request with remote_addr=socket://127.0.0.1:63420 version=HTTP/1.1 method=GET path=http://127.0.0.1:5800/assets/js/vendor/bootstrap.min.js
+
+  2024-04-01 09:39:08.796  INFO salvo_extra::logging: Response, status: 304 Not Modified, duration: 485.4µs
+    at C:\Users\27217\.cargo\registry\src\index.crates.io-6f17d22bba15001f\salvo_extra-0.66.2\src\logging.rs:44 on tokio-runtime-worker ThreadId(15)
+    in salvo_extra::logging::Request with remote_addr=socket://127.0.0.1:63421 version=HTTP/1.1 method=GET path=http://127.0.0.1:5800/assets/js/functions.js
+
+  2024-04-01 09:39:08.797  INFO salvo_extra::logging: Response, status: 304 Not Modified, duration: 675.9µs
+    at C:\Users\27217\.cargo\registry\src\index.crates.io-6f17d22bba15001f\salvo_extra-0.66.2\src\logging.rs:44 on tokio-runtime-worker ThreadId(15)
+    in salvo_extra::logging::Request with remote_addr=socket://127.0.0.1:63417 version=HTTP/1.1 method=GET path=http://127.0.0.1:5800/assets/js/vendor/aos.js
+
+  2024-04-01 09:39:08.803  INFO salvo_extra::logging: Response, status: 304 Not Modified, duration: 1.4926ms
+    at C:\Users\27217\.cargo\registry\src\index.crates.io-6f17d22bba15001f\salvo_extra-0.66.2\src\logging.rs:44 on tokio-runtime-worker ThreadId(15)
+    in salvo_extra::logging::Request with remote_addr=socket://127.0.0.1:63420 version=HTTP/1.1 method=GET path=http://127.0.0.1:5800/assets/js/alpinejs.js
+
+  2024-04-01 09:39:13.026  INFO salvo_extra::logging: Response, status: 200 OK, duration: 1.9849ms
+    at C:\Users\27217\.cargo\registry\src\index.crates.io-6f17d22bba15001f\salvo_extra-0.66.2\src\logging.rs:44 on tokio-runtime-worker ThreadId(15)
+    in salvo_extra::logging::Request with remote_addr=socket://127.0.0.1:63420 version=HTTP/1.1 method=GET path=http://127.0.0.1:5800/index
+
+  2024-04-01 09:39:13.076  INFO salvo_extra::logging: Response, status: 304 Not Modified, duration: 8.0066ms
+    at C:\Users\27217\.cargo\registry\src\index.crates.io-6f17d22bba15001f\salvo_extra-0.66.2\src\logging.rs:44 on tokio-runtime-worker ThreadId(13)
+    in salvo_extra::logging::Request with remote_addr=socket://127.0.0.1:63420 version=HTTP/1.1 method=GET path=http://127.0.0.1:5800/assets/css/main.css
+
+  2024-04-01 09:39:13.078  INFO salvo_extra::logging: Response, status: 304 Not Modified, duration: 1.4ms
+    at C:\Users\27217\.cargo\registry\src\index.crates.io-6f17d22bba15001f\salvo_extra-0.66.2\src\logging.rs:44 on tokio-runtime-worker ThreadId(15)
+    in salvo_extra::logging::Request with remote_addr=socket://127.0.0.1:63417 version=HTTP/1.1 method=GET path=http://127.0.0.1:5800/assets/css/vendor/aos.css
+
+  2024-04-01 09:39:13.080  INFO salvo_extra::logging: Response, status: 304 Not Modified, duration: 3.0374ms
+    at C:\Users\27217\.cargo\registry\src\index.crates.io-6f17d22bba15001f\salvo_extra-0.66.2\src\logging.rs:44 on tokio-runtime-worker ThreadId(13)
+    in salvo_extra::logging::Request with remote_addr=socket://127.0.0.1:63422 version=HTTP/1.1 method=GET path=http://127.0.0.1:5800/assets/js/vendor/jquery.min.js
+
+  2024-04-01 09:39:13.080  INFO salvo_extra::logging: Response, status: 304 Not Modified, duration: 3.1905ms
+    at C:\Users\27217\.cargo\registry\src\index.crates.io-6f17d22bba15001f\salvo_extra-0.66.2\src\logging.rs:44 on tokio-runtime-worker ThreadId(12)
+    in salvo_extra::logging::Request with remote_addr=socket://127.0.0.1:63421 version=HTTP/1.1 method=GET path=http://127.0.0.1:5800/assets/img/demo/dashb.png
+
+  2024-04-01 09:39:13.083  INFO salvo_extra::logging: Response, status: 304 Not Modified, duration: 1.3011ms
+    at C:\Users\27217\.cargo\registry\src\index.crates.io-6f17d22bba15001f\salvo_extra-0.66.2\src\logging.rs:44 on tokio-runtime-worker ThreadId(14)
+    in salvo_extra::logging::Request with remote_addr=socket://127.0.0.1:63422 version=HTTP/1.1 method=GET path=http://127.0.0.1:5800/assets/js/vendor/popper.min.js
+
+  2024-04-01 09:39:13.099  INFO salvo_extra::logging: Response, status: 304 Not Modified, duration: 1.4331ms
+    at C:\Users\27217\.cargo\registry\src\index.crates.io-6f17d22bba15001f\salvo_extra-0.66.2\src\logging.rs:44 on tokio-runtime-worker ThreadId(14)
+    in salvo_extra::logging::Request with remote_addr=socket://127.0.0.1:63422 version=HTTP/1.1 method=GET path=http://127.0.0.1:5800/assets/js/vendor/bootstrap.min.js
+
+  2024-04-01 09:39:13.100  INFO salvo_extra::logging: Response, status: 304 Not Modified, duration: 595.3µs
+    at C:\Users\27217\.cargo\registry\src\index.crates.io-6f17d22bba15001f\salvo_extra-0.66.2\src\logging.rs:44 on tokio-runtime-worker ThreadId(13)
+    in salvo_extra::logging::Request with remote_addr=socket://127.0.0.1:63417 version=HTTP/1.1 method=GET path=http://127.0.0.1:5800/assets/js/functions.js
+
+  2024-04-01 09:39:13.100  INFO salvo_extra::logging: Response, status: 304 Not Modified, duration: 705.5µs
+    at C:\Users\27217\.cargo\registry\src\index.crates.io-6f17d22bba15001f\salvo_extra-0.66.2\src\logging.rs:44 on tokio-runtime-worker ThreadId(15)
+    in salvo_extra::logging::Request with remote_addr=socket://127.0.0.1:63421 version=HTTP/1.1 method=GET path=http://127.0.0.1:5800/assets/js/vendor/share.js
+
+  2024-04-01 09:39:13.100  INFO salvo_extra::logging: Response, status: 304 Not Modified, duration: 727.6µs
+    at C:\Users\27217\.cargo\registry\src\index.crates.io-6f17d22bba15001f\salvo_extra-0.66.2\src\logging.rs:44 on tokio-runtime-worker ThreadId(12)
+    in salvo_extra::logging::Request with remote_addr=socket://127.0.0.1:63420 version=HTTP/1.1 method=GET path=http://127.0.0.1:5800/assets/js/vendor/aos.js
+
+  2024-04-01 09:39:13.101  INFO salvo_extra::logging: Response, status: 304 Not Modified, duration: 1.6375ms
+    at C:\Users\27217\.cargo\registry\src\index.crates.io-6f17d22bba15001f\salvo_extra-0.66.2\src\logging.rs:44 on tokio-runtime-worker ThreadId(14)
+    in salvo_extra::logging::Request with remote_addr=socket://127.0.0.1:63418 version=HTTP/1.1 method=GET path=http://127.0.0.1:5800/assets/js/alpinejs.js
+
+  2024-04-01 09:50:52.577  INFO okudera: ctrl_c signal received
+    at src\main.rs:105 on tokio-runtime-worker ThreadId(11)
+
+  2024-04-01 09:50:52.578  INFO salvo_core::conn::proto: closing connection due to inactivity
+    at C:\Users\27217\.cargo\registry\src\index.crates.io-6f17d22bba15001f\salvo_core-0.66.2\src\conn\proto.rs:117 on tokio-runtime-worker ThreadId(7)
+
+  2024-04-01 09:50:52.578  INFO salvo_core::conn::proto: closing connection due to inactivity
+    at C:\Users\27217\.cargo\registry\src\index.crates.io-6f17d22bba15001f\salvo_core-0.66.2\src\conn\proto.rs:117 on tokio-runtime-worker ThreadId(15)
+
+  2024-04-01 09:50:52.578  INFO salvo_core::conn::proto: closing connection due to inactivity
+    at C:\Users\27217\.cargo\registry\src\index.crates.io-6f17d22bba15001f\salvo_core-0.66.2\src\conn\proto.rs:117 on tokio-runtime-worker ThreadId(13)
+
+  2024-04-01 09:50:52.578  INFO salvo_core::conn::proto: closing connection due to inactivity
+    at C:\Users\27217\.cargo\registry\src\index.crates.io-6f17d22bba15001f\salvo_core-0.66.2\src\conn\proto.rs:117 on tokio-runtime-worker ThreadId(16)
+
+  2024-04-01 09:50:52.578  INFO salvo_core::conn::proto: closing connection due to inactivity
+    at C:\Users\27217\.cargo\registry\src\index.crates.io-6f17d22bba15001f\salvo_core-0.66.2\src\conn\proto.rs:117 on tokio-runtime-worker ThreadId(12)
+
+  2024-04-01 09:50:52.579  INFO salvo_core::conn::proto: closing connection due to inactivity
+    at C:\Users\27217\.cargo\registry\src\index.crates.io-6f17d22bba15001f\salvo_core-0.66.2\src\conn\proto.rs:117 on tokio-runtime-worker ThreadId(14)
+
+  2024-04-01 09:50:52.578  INFO salvo_core::server: initiate graceful stop server, timeout_in_seconds: 60.0
+    at C:\Users\27217\.cargo\registry\src\index.crates.io-6f17d22bba15001f\salvo_core-0.66.2\src\server.rs:255 on main ThreadId(1)
+
+  2024-04-01 09:50:52.580  INFO salvo_core::server: server stopped
+    at C:\Users\27217\.cargo\registry\src\index.crates.io-6f17d22bba15001f\salvo_core-0.66.2\src\server.rs:317 on main ThreadId(1)
+
+  2024-04-01 09:51:11.419  INFO okudera: log level: info
+    at src\main.rs:34 on main ThreadId(1)
+
+  2024-04-01 09:51:11.447  INFO salvo_core::server: listening [HTTP/1.1] on http://0.0.0.0:5800
+    at C:\Users\27217\.cargo\registry\src\index.crates.io-6f17d22bba15001f\salvo_core-0.66.2\src\server.rs:232 on main ThreadId(1)
+
+  2024-04-01 09:51:13.115  INFO salvo_extra::logging: Response, status: 303 See Other, duration: 1.6264ms
+    at C:\Users\27217\.cargo\registry\src\index.crates.io-6f17d22bba15001f\salvo_extra-0.66.2\src\logging.rs:44 on tokio-runtime-worker ThreadId(8)
+    in salvo_extra::logging::Request with remote_addr=socket://127.0.0.1:64033 version=HTTP/1.1 method=GET path=http://127.0.0.1:5800/login
+
+  2024-04-01 09:51:13.124  INFO salvo_extra::logging: Response, status: 200 OK, duration: 1.0986ms
+    at C:\Users\27217\.cargo\registry\src\index.crates.io-6f17d22bba15001f\salvo_extra-0.66.2\src\logging.rs:44 on tokio-runtime-worker ThreadId(17)
+    in salvo_extra::logging::Request with remote_addr=socket://127.0.0.1:64033 version=HTTP/1.1 method=GET path=http://127.0.0.1:5800/index
+
+  2024-04-01 09:51:13.237  INFO salvo_extra::logging: Response, status: 304 Not Modified, duration: 6.1715ms
+    at C:\Users\27217\.cargo\registry\src\index.crates.io-6f17d22bba15001f\salvo_extra-0.66.2\src\logging.rs:44 on tokio-runtime-worker ThreadId(8)
+    in salvo_extra::logging::Request with remote_addr=socket://127.0.0.1:64033 version=HTTP/1.1 method=GET path=http://127.0.0.1:5800/assets/img/demo/dashb2.png
+
+  2024-04-01 09:51:13.242  INFO salvo_extra::logging: Response, status: 304 Not Modified, duration: 1.8343ms
+    at C:\Users\27217\.cargo\registry\src\index.crates.io-6f17d22bba15001f\salvo_extra-0.66.2\src\logging.rs:44 on tokio-runtime-worker ThreadId(8)
+    in salvo_extra::logging::Request with remote_addr=socket://127.0.0.1:64032 version=HTTP/1.1 method=GET path=http://127.0.0.1:5800/assets/img/demo/avatar.png
+
+  2024-04-01 09:51:13.246  INFO salvo_extra::logging: Response, status: 304 Not Modified, duration: 3.611ms
+    at C:\Users\27217\.cargo\registry\src\index.crates.io-6f17d22bba15001f\salvo_extra-0.66.2\src\logging.rs:44 on tokio-runtime-worker ThreadId(17)
+    in salvo_extra::logging::Request with remote_addr=socket://127.0.0.1:64034 version=HTTP/1.1 method=GET path=http://127.0.0.1:5800/assets/img/demo/avatar2.jpg
+
+  2024-04-01 09:51:13.247  INFO salvo_extra::logging: Response, status: 304 Not Modified, duration: 2.5538ms
+    at C:\Users\27217\.cargo\registry\src\index.crates.io-6f17d22bba15001f\salvo_extra-0.66.2\src\logging.rs:44 on tokio-runtime-worker ThreadId(15)
+    in salvo_extra::logging::Request with remote_addr=socket://127.0.0.1:64035 version=HTTP/1.1 method=GET path=http://127.0.0.1:5800/assets/img/favicon.ico
+
+  2024-04-01 09:51:13.251  INFO salvo_extra::logging: Response, status: 304 Not Modified, duration: 7.1451ms
+    at C:\Users\27217\.cargo\registry\src\index.crates.io-6f17d22bba15001f\salvo_extra-0.66.2\src\logging.rs:44 on tokio-runtime-worker ThreadId(8)
+    in salvo_extra::logging::Request with remote_addr=socket://127.0.0.1:64037 version=HTTP/1.1 method=GET path=http://127.0.0.1:5800/assets/img/demo/9.jpg
+
+  2024-04-01 09:51:13.253  INFO salvo_extra::logging: Response, status: 304 Not Modified, duration: 7.7032ms
+    at C:\Users\27217\.cargo\registry\src\index.crates.io-6f17d22bba15001f\salvo_extra-0.66.2\src\logging.rs:44 on tokio-runtime-worker ThreadId(14)
+    in salvo_extra::logging::Request with remote_addr=socket://127.0.0.1:64036 version=HTTP/1.1 method=GET path=http://127.0.0.1:5800/assets/img/demo/7.jpg
+
+  2024-04-01 09:51:13.271  INFO salvo_extra::logging: Response, status: 304 Not Modified, duration: 4.1264ms
+    at C:\Users\27217\.cargo\registry\src\index.crates.io-6f17d22bba15001f\salvo_extra-0.66.2\src\logging.rs:44 on tokio-runtime-worker ThreadId(17)
+    in salvo_extra::logging::Request with remote_addr=socket://127.0.0.1:64036 version=HTTP/1.1 method=GET path=http://127.0.0.1:5800/assets/img/demo/blog8.jpg
+
+  2024-04-01 09:51:13.275  INFO salvo_extra::logging: Response, status: 304 Not Modified, duration: 2.8554ms
+    at C:\Users\27217\.cargo\registry\src\index.crates.io-6f17d22bba15001f\salvo_extra-0.66.2\src\logging.rs:44 on tokio-runtime-worker ThreadId(17)
+    in salvo_extra::logging::Request with remote_addr=socket://127.0.0.1:64037 version=HTTP/1.1 method=GET path=http://127.0.0.1:5800/assets/img/demo/3.jpg
+
+  2024-04-01 09:51:13.284  INFO salvo_extra::logging: Response, status: 304 Not Modified, duration: 2.2967ms
+    at C:\Users\27217\.cargo\registry\src\index.crates.io-6f17d22bba15001f\salvo_extra-0.66.2\src\logging.rs:44 on tokio-runtime-worker ThreadId(8)
+    in salvo_extra::logging::Request with remote_addr=socket://127.0.0.1:64037 version=HTTP/1.1 method=GET path=http://127.0.0.1:5800/assets/img/demo/2.jpg
+
+  2024-04-01 09:51:13.286  INFO salvo_extra::logging: Response, status: 304 Not Modified, duration: 2.8753ms
+    at C:\Users\27217\.cargo\registry\src\index.crates.io-6f17d22bba15001f\salvo_extra-0.66.2\src\logging.rs:44 on tokio-runtime-worker ThreadId(15)
+    in salvo_extra::logging::Request with remote_addr=socket://127.0.0.1:64035 version=HTTP/1.1 method=GET path=http://127.0.0.1:5800/assets/img/demo/screenshot2.png
+
+  2024-04-01 09:51:13.287  INFO salvo_extra::logging: Response, status: 304 Not Modified, duration: 1.4532ms
+    at C:\Users\27217\.cargo\registry\src\index.crates.io-6f17d22bba15001f\salvo_extra-0.66.2\src\logging.rs:44 on tokio-runtime-worker ThreadId(8)
+    in salvo_extra::logging::Request with remote_addr=socket://127.0.0.1:64034 version=HTTP/1.1 method=GET path=http://127.0.0.1:5800/assets/img/demo/screenshot3.png
+
+  2024-04-01 09:51:13.295  INFO salvo_extra::logging: Response, status: 304 Not Modified, duration: 13.6036ms
+    at C:\Users\27217\.cargo\registry\src\index.crates.io-6f17d22bba15001f\salvo_extra-0.66.2\src\logging.rs:44 on tokio-runtime-worker ThreadId(17)
+    in salvo_extra::logging::Request with remote_addr=socket://127.0.0.1:64036 version=HTTP/1.1 method=GET path=http://127.0.0.1:5800/assets/img/demo/screenshot4.png
+
+  2024-04-01 09:51:13.299  INFO salvo_extra::logging: Response, status: 304 Not Modified, duration: 1.348ms
+    at C:\Users\27217\.cargo\registry\src\index.crates.io-6f17d22bba15001f\salvo_extra-0.66.2\src\logging.rs:44 on tokio-runtime-worker ThreadId(15)
+    in salvo_extra::logging::Request with remote_addr=socket://127.0.0.1:64036 version=HTTP/1.1 method=GET path=http://127.0.0.1:5800/assets/img/demo/1.jpg
+
+  2024-04-01 09:51:13.303  INFO salvo_extra::logging: Response, status: 304 Not Modified, duration: 1.9353ms
+    at C:\Users\27217\.cargo\registry\src\index.crates.io-6f17d22bba15001f\salvo_extra-0.66.2\src\logging.rs:44 on tokio-runtime-worker ThreadId(15)
+    in salvo_extra::logging::Request with remote_addr=socket://127.0.0.1:64036 version=HTTP/1.1 method=GET path=http://127.0.0.1:5800/assets/img/demo/4.jpg
+
+  2024-04-01 09:51:42.827  INFO salvo_extra::logging: Response, status: 200 OK, duration: 723.5µs
+    at C:\Users\27217\.cargo\registry\src\index.crates.io-6f17d22bba15001f\salvo_extra-0.66.2\src\logging.rs:44 on tokio-runtime-worker ThreadId(15)
+    in salvo_extra::logging::Request with remote_addr=socket://127.0.0.1:64036 version=HTTP/1.1 method=GET path=http://127.0.0.1:5800/index
+
+  2024-04-01 09:51:42.863  INFO salvo_extra::logging: Response, status: 304 Not Modified, duration: 2.8795ms
+    at C:\Users\27217\.cargo\registry\src\index.crates.io-6f17d22bba15001f\salvo_extra-0.66.2\src\logging.rs:44 on tokio-runtime-worker ThreadId(8)
+    in salvo_extra::logging::Request with remote_addr=socket://127.0.0.1:64036 version=HTTP/1.1 method=GET path=http://127.0.0.1:5800/assets/img/demo/dashb2.png
+
+  2024-04-01 09:51:42.865  INFO salvo_extra::logging: Response, status: 304 Not Modified, duration: 759.6µs
+    at C:\Users\27217\.cargo\registry\src\index.crates.io-6f17d22bba15001f\salvo_extra-0.66.2\src\logging.rs:44 on tokio-runtime-worker ThreadId(8)
+    in salvo_extra::logging::Request with remote_addr=socket://127.0.0.1:64034 version=HTTP/1.1 method=GET path=http://127.0.0.1:5800/assets/img/demo/avatar.png
+
+  2024-04-01 09:51:42.873  INFO salvo_extra::logging: Response, status: 304 Not Modified, duration: 678µs
+    at C:\Users\27217\.cargo\registry\src\index.crates.io-6f17d22bba15001f\salvo_extra-0.66.2\src\logging.rs:44 on tokio-runtime-worker ThreadId(8)
+    in salvo_extra::logging::Request with remote_addr=socket://127.0.0.1:64034 version=HTTP/1.1 method=GET path=http://127.0.0.1:5800/assets/img/demo/avatar2.jpg
+
+  2024-04-01 09:51:42.875  INFO salvo_extra::logging: Response, status: 304 Not Modified, duration: 1.1015ms
+    at C:\Users\27217\.cargo\registry\src\index.crates.io-6f17d22bba15001f\salvo_extra-0.66.2\src\logging.rs:44 on tokio-runtime-worker ThreadId(17)
+    in salvo_extra::logging::Request with remote_addr=socket://127.0.0.1:64036 version=HTTP/1.1 method=GET path=http://127.0.0.1:5800/assets/img/favicon.ico
+
+  2024-04-01 09:51:42.877  INFO salvo_extra::logging: Response, status: 304 Not Modified, duration: 3.0529ms
+    at C:\Users\27217\.cargo\registry\src\index.crates.io-6f17d22bba15001f\salvo_extra-0.66.2\src\logging.rs:44 on tokio-runtime-worker ThreadId(14)
+    in salvo_extra::logging::Request with remote_addr=socket://127.0.0.1:64032 version=HTTP/1.1 method=GET path=http://127.0.0.1:5800/assets/img/demo/blog8.jpg
+
+  2024-04-01 09:51:42.877  INFO salvo_extra::logging: Response, status: 304 Not Modified, duration: 3.7553ms
+    at C:\Users\27217\.cargo\registry\src\index.crates.io-6f17d22bba15001f\salvo_extra-0.66.2\src\logging.rs:44 on tokio-runtime-worker ThreadId(8)
+    in salvo_extra::logging::Request with remote_addr=socket://127.0.0.1:64033 version=HTTP/1.1 method=GET path=http://127.0.0.1:5800/assets/img/demo/3.jpg
+
+  2024-04-01 09:51:42.879  INFO salvo_extra::logging: Response, status: 304 Not Modified, duration: 5.3929ms
+    at C:\Users\27217\.cargo\registry\src\index.crates.io-6f17d22bba15001f\salvo_extra-0.66.2\src\logging.rs:44 on tokio-runtime-worker ThreadId(13)
+    in salvo_extra::logging::Request with remote_addr=socket://127.0.0.1:64037 version=HTTP/1.1 method=GET path=http://127.0.0.1:5800/assets/img/demo/9.jpg
+
+  2024-04-01 09:51:42.880  INFO salvo_extra::logging: Response, status: 304 Not Modified, duration: 1.3309ms
+    at C:\Users\27217\.cargo\registry\src\index.crates.io-6f17d22bba15001f\salvo_extra-0.66.2\src\logging.rs:44 on tokio-runtime-worker ThreadId(12)
+    in salvo_extra::logging::Request with remote_addr=socket://127.0.0.1:64034 version=HTTP/1.1 method=GET path=http://127.0.0.1:5800/assets/img/demo/2.jpg
+
+  2024-04-01 09:51:42.881  INFO salvo_extra::logging: Response, status: 304 Not Modified, duration: 697.8µs
+    at C:\Users\27217\.cargo\registry\src\index.crates.io-6f17d22bba15001f\salvo_extra-0.66.2\src\logging.rs:44 on tokio-runtime-worker ThreadId(13)
+    in salvo_extra::logging::Request with remote_addr=socket://127.0.0.1:64033 version=HTTP/1.1 method=GET path=http://127.0.0.1:5800/assets/img/demo/screenshot4.png
+
+  2024-04-01 09:51:42.882  INFO salvo_extra::logging: Response, status: 304 Not Modified, duration: 8.1076ms
+    at C:\Users\27217\.cargo\registry\src\index.crates.io-6f17d22bba15001f\salvo_extra-0.66.2\src\logging.rs:44 on tokio-runtime-worker ThreadId(15)
+    in salvo_extra::logging::Request with remote_addr=socket://127.0.0.1:64035 version=HTTP/1.1 method=GET path=http://127.0.0.1:5800/assets/img/demo/7.jpg
+
+  2024-04-01 09:51:42.883  INFO salvo_extra::logging: Response, status: 304 Not Modified, duration: 1.7075ms
+    at C:\Users\27217\.cargo\registry\src\index.crates.io-6f17d22bba15001f\salvo_extra-0.66.2\src\logging.rs:44 on tokio-runtime-worker ThreadId(12)
+    in salvo_extra::logging::Request with remote_addr=socket://127.0.0.1:64032 version=HTTP/1.1 method=GET path=http://127.0.0.1:5800/assets/img/demo/screenshot2.png
+
+  2024-04-01 09:51:42.884  INFO salvo_extra::logging: Response, status: 304 Not Modified, duration: 1.4377ms
+    at C:\Users\27217\.cargo\registry\src\index.crates.io-6f17d22bba15001f\salvo_extra-0.66.2\src\logging.rs:44 on tokio-runtime-worker ThreadId(15)
+    in salvo_extra::logging::Request with remote_addr=socket://127.0.0.1:64034 version=HTTP/1.1 method=GET path=http://127.0.0.1:5800/assets/img/demo/screenshot3.png
+
+  2024-04-01 09:51:42.886  INFO salvo_extra::logging: Response, status: 304 Not Modified, duration: 1.1513ms
+    at C:\Users\27217\.cargo\registry\src\index.crates.io-6f17d22bba15001f\salvo_extra-0.66.2\src\logging.rs:44 on tokio-runtime-worker ThreadId(12)
+    in salvo_extra::logging::Request with remote_addr=socket://127.0.0.1:64035 version=HTTP/1.1 method=GET path=http://127.0.0.1:5800/assets/img/demo/1.jpg
+
+  2024-04-01 09:51:42.888  INFO salvo_extra::logging: Response, status: 304 Not Modified, duration: 1.4609ms
+    at C:\Users\27217\.cargo\registry\src\index.crates.io-6f17d22bba15001f\salvo_extra-0.66.2\src\logging.rs:44 on tokio-runtime-worker ThreadId(12)
+    in salvo_extra::logging::Request with remote_addr=socket://127.0.0.1:64033 version=HTTP/1.1 method=GET path=http://127.0.0.1:5800/assets/img/demo/4.jpg
+
+  2024-04-01 09:51:46.352  INFO salvo_extra::logging: Response, status: 200 OK, duration: 815.1µs
+    at C:\Users\27217\.cargo\registry\src\index.crates.io-6f17d22bba15001f\salvo_extra-0.66.2\src\logging.rs:44 on tokio-runtime-worker ThreadId(12)
+    in salvo_extra::logging::Request with remote_addr=socket://127.0.0.1:64033 version=HTTP/1.1 method=GET path=http://127.0.0.1:5800/index
+
+  2024-04-01 09:51:46.415  INFO salvo_extra::logging: Response, status: 200 OK, duration: 2.4778ms
+    at C:\Users\27217\.cargo\registry\src\index.crates.io-6f17d22bba15001f\salvo_extra-0.66.2\src\logging.rs:44 on tokio-runtime-worker ThreadId(15)
+    in salvo_extra::logging::Request with remote_addr=socket://127.0.0.1:64033 version=HTTP/1.1 method=GET path=http://127.0.0.1:5800/assets/img/demo/dashb2.png
+
+  2024-04-01 09:51:46.417  INFO salvo_extra::logging: Response, status: 200 OK, duration: 894.3µs
+    at C:\Users\27217\.cargo\registry\src\index.crates.io-6f17d22bba15001f\salvo_extra-0.66.2\src\logging.rs:44 on tokio-runtime-worker ThreadId(14)
+    in salvo_extra::logging::Request with remote_addr=socket://127.0.0.1:64032 version=HTTP/1.1 method=GET path=http://127.0.0.1:5800/assets/img/favicon.ico
+
+  2024-04-01 09:51:46.418  INFO salvo_extra::logging: Response, status: 200 OK, duration: 1.8725ms
+    at C:\Users\27217\.cargo\registry\src\index.crates.io-6f17d22bba15001f\salvo_extra-0.66.2\src\logging.rs:44 on tokio-runtime-worker ThreadId(12)
+    in salvo_extra::logging::Request with remote_addr=socket://127.0.0.1:64034 version=HTTP/1.1 method=GET path=http://127.0.0.1:5800/assets/img/demo/avatar2.jpg
+
+  2024-04-01 09:51:46.418  INFO salvo_extra::logging: Response, status: 200 OK, duration: 1.882ms
+    at C:\Users\27217\.cargo\registry\src\index.crates.io-6f17d22bba15001f\salvo_extra-0.66.2\src\logging.rs:44 on tokio-runtime-worker ThreadId(13)
+    in salvo_extra::logging::Request with remote_addr=socket://127.0.0.1:64035 version=HTTP/1.1 method=GET path=http://127.0.0.1:5800/assets/img/demo/avatar.png
+
+  2024-04-01 09:51:46.422  INFO salvo_extra::logging: Response, status: 200 OK, duration: 6.5838ms
+    at C:\Users\27217\.cargo\registry\src\index.crates.io-6f17d22bba15001f\salvo_extra-0.66.2\src\logging.rs:44 on tokio-runtime-worker ThreadId(15)
+    in salvo_extra::logging::Request with remote_addr=socket://127.0.0.1:64036 version=HTTP/1.1 method=GET path=http://127.0.0.1:5800/assets/img/demo/9.jpg
+
+  2024-04-01 09:51:46.423  INFO salvo_extra::logging: Response, status: 200 OK, duration: 7.3086ms
+    at C:\Users\27217\.cargo\registry\src\index.crates.io-6f17d22bba15001f\salvo_extra-0.66.2\src\logging.rs:44 on tokio-runtime-worker ThreadId(17)
+    in salvo_extra::logging::Request with remote_addr=socket://127.0.0.1:64037 version=HTTP/1.1 method=GET path=http://127.0.0.1:5800/assets/img/demo/7.jpg
+
+  2024-04-01 09:51:46.424  INFO salvo_extra::logging: Response, status: 200 OK, duration: 3.0574ms
+    at C:\Users\27217\.cargo\registry\src\index.crates.io-6f17d22bba15001f\salvo_extra-0.66.2\src\logging.rs:44 on tokio-runtime-worker ThreadId(8)
+    in salvo_extra::logging::Request with remote_addr=socket://127.0.0.1:64033 version=HTTP/1.1 method=GET path=http://127.0.0.1:5800/assets/img/demo/blog8.jpg
+
+  2024-04-01 09:51:46.427  INFO salvo_extra::logging: Response, status: 200 OK, duration: 1.9592ms
+    at C:\Users\27217\.cargo\registry\src\index.crates.io-6f17d22bba15001f\salvo_extra-0.66.2\src\logging.rs:44 on tokio-runtime-worker ThreadId(15)
+    in salvo_extra::logging::Request with remote_addr=socket://127.0.0.1:64034 version=HTTP/1.1 method=GET path=http://127.0.0.1:5800/assets/img/demo/3.jpg
+
+  2024-04-01 09:51:46.431  INFO salvo_extra::logging: Response, status: 200 OK, duration: 2.0554ms
+    at C:\Users\27217\.cargo\registry\src\index.crates.io-6f17d22bba15001f\salvo_extra-0.66.2\src\logging.rs:44 on tokio-runtime-worker ThreadId(15)
+    in salvo_extra::logging::Request with remote_addr=socket://127.0.0.1:64035 version=HTTP/1.1 method=GET path=http://127.0.0.1:5800/assets/img/demo/2.jpg
+
+  2024-04-01 09:51:46.433  INFO salvo_extra::logging: Response, status: 200 OK, duration: 1.0772ms
+    at C:\Users\27217\.cargo\registry\src\index.crates.io-6f17d22bba15001f\salvo_extra-0.66.2\src\logging.rs:44 on tokio-runtime-worker ThreadId(15)
+    in salvo_extra::logging::Request with remote_addr=socket://127.0.0.1:64032 version=HTTP/1.1 method=GET path=http://127.0.0.1:5800/assets/img/demo/screenshot4.png
+
+  2024-04-01 09:51:46.437  INFO salvo_extra::logging: Response, status: 200 OK, duration: 2.1045ms
+    at C:\Users\27217\.cargo\registry\src\index.crates.io-6f17d22bba15001f\salvo_extra-0.66.2\src\logging.rs:44 on tokio-runtime-worker ThreadId(15)
+    in salvo_extra::logging::Request with remote_addr=socket://127.0.0.1:64034 version=HTTP/1.1 method=GET path=http://127.0.0.1:5800/assets/img/demo/screenshot2.png
+
+  2024-04-01 09:51:46.440  INFO salvo_extra::logging: Response, status: 200 OK, duration: 1.2643ms
+    at C:\Users\27217\.cargo\registry\src\index.crates.io-6f17d22bba15001f\salvo_extra-0.66.2\src\logging.rs:44 on tokio-runtime-worker ThreadId(15)
+    in salvo_extra::logging::Request with remote_addr=socket://127.0.0.1:64033 version=HTTP/1.1 method=GET path=http://127.0.0.1:5800/assets/img/demo/screenshot3.png
+
+  2024-04-01 09:51:46.442  INFO salvo_extra::logging: Response, status: 200 OK, duration: 1.8812ms
+    at C:\Users\27217\.cargo\registry\src\index.crates.io-6f17d22bba15001f\salvo_extra-0.66.2\src\logging.rs:44 on tokio-runtime-worker ThreadId(17)
+    in salvo_extra::logging::Request with remote_addr=socket://127.0.0.1:64037 version=HTTP/1.1 method=GET path=http://127.0.0.1:5800/assets/img/demo/1.jpg
+
+  2024-04-01 09:51:46.443  INFO salvo_extra::logging: Response, status: 200 OK, duration: 2.2093ms
+    at C:\Users\27217\.cargo\registry\src\index.crates.io-6f17d22bba15001f\salvo_extra-0.66.2\src\logging.rs:44 on tokio-runtime-worker ThreadId(15)
+    in salvo_extra::logging::Request with remote_addr=socket://127.0.0.1:64035 version=HTTP/1.1 method=GET path=http://127.0.0.1:5800/assets/img/demo/4.jpg
+
+  2024-04-01 09:52:24.260  INFO okudera: ctrl_c signal received
+    at src\main.rs:105 on tokio-runtime-worker ThreadId(15)
+
+  2024-04-01 09:52:24.260  INFO salvo_core::conn::proto: closing connection due to inactivity
+    at C:\Users\27217\.cargo\registry\src\index.crates.io-6f17d22bba15001f\salvo_core-0.66.2\src\conn\proto.rs:117 on tokio-runtime-worker ThreadId(15)
+
+  2024-04-01 09:52:24.260  INFO salvo_core::conn::proto: closing connection due to inactivity
+    at C:\Users\27217\.cargo\registry\src\index.crates.io-6f17d22bba15001f\salvo_core-0.66.2\src\conn\proto.rs:117 on tokio-runtime-worker ThreadId(17)
+
+  2024-04-01 09:52:24.260  INFO salvo_core::server: initiate graceful stop server, timeout_in_seconds: 60.0
+    at C:\Users\27217\.cargo\registry\src\index.crates.io-6f17d22bba15001f\salvo_core-0.66.2\src\server.rs:255 on main ThreadId(1)
+
+  2024-04-01 09:52:24.260  INFO salvo_core::conn::proto: closing connection due to inactivity
+    at C:\Users\27217\.cargo\registry\src\index.crates.io-6f17d22bba15001f\salvo_core-0.66.2\src\conn\proto.rs:117 on tokio-runtime-worker ThreadId(8)
+
+  2024-04-01 09:52:24.260  INFO salvo_core::server: wait for all connections to close.
+    at C:\Users\27217\.cargo\registry\src\index.crates.io-6f17d22bba15001f\salvo_core-0.66.2\src\server.rs:313 on main ThreadId(1)
+
+  2024-04-01 09:52:24.260  INFO salvo_core::conn::proto: closing connection due to inactivity
+    at C:\Users\27217\.cargo\registry\src\index.crates.io-6f17d22bba15001f\salvo_core-0.66.2\src\conn\proto.rs:117 on tokio-runtime-worker ThreadId(13)
+
+  2024-04-01 09:52:24.260  INFO salvo_core::conn::proto: closing connection due to inactivity
+    at C:\Users\27217\.cargo\registry\src\index.crates.io-6f17d22bba15001f\salvo_core-0.66.2\src\conn\proto.rs:117 on tokio-runtime-worker ThreadId(14)
+
+  2024-04-01 09:52:24.260  INFO salvo_core::conn::proto: closing connection due to inactivity
+    at C:\Users\27217\.cargo\registry\src\index.crates.io-6f17d22bba15001f\salvo_core-0.66.2\src\conn\proto.rs:117 on tokio-runtime-worker ThreadId(12)
+
+  2024-04-01 09:52:24.261  INFO salvo_core::server: server stopped
+    at C:\Users\27217\.cargo\registry\src\index.crates.io-6f17d22bba15001f\salvo_core-0.66.2\src\server.rs:317 on main ThreadId(1)
+
+  2024-04-01 09:52:42.573  INFO okudera: log level: info
+    at src\main.rs:34 on main ThreadId(1)
+
+  2024-04-01 09:52:42.601  INFO salvo_core::server: listening [HTTP/1.1] on http://0.0.0.0:5800
+    at C:\Users\27217\.cargo\registry\src\index.crates.io-6f17d22bba15001f\salvo_core-0.66.2\src\server.rs:232 on main ThreadId(1)
+
+  2024-04-01 09:52:44.578  INFO salvo_extra::logging: Response, status: 303 See Other, duration: 3.1087ms
+    at C:\Users\27217\.cargo\registry\src\index.crates.io-6f17d22bba15001f\salvo_extra-0.66.2\src\logging.rs:44 on tokio-runtime-worker ThreadId(3)
+    in salvo_extra::logging::Request with remote_addr=socket://127.0.0.1:64129 version=HTTP/1.1 method=GET path=http://127.0.0.1:5800/login
+
+  2024-04-01 09:52:44.591  INFO salvo_extra::logging: Response, status: 200 OK, duration: 2.4852ms
+    at C:\Users\27217\.cargo\registry\src\index.crates.io-6f17d22bba15001f\salvo_extra-0.66.2\src\logging.rs:44 on tokio-runtime-worker ThreadId(16)
+    in salvo_extra::logging::Request with remote_addr=socket://127.0.0.1:64129 version=HTTP/1.1 method=GET path=http://127.0.0.1:5800/index
+
+  2024-04-01 09:52:44.658  INFO salvo_extra::logging: Response, status: 304 Not Modified, duration: 9.5467ms
+    at C:\Users\27217\.cargo\registry\src\index.crates.io-6f17d22bba15001f\salvo_extra-0.66.2\src\logging.rs:44 on tokio-runtime-worker ThreadId(3)
+    in salvo_extra::logging::Request with remote_addr=socket://127.0.0.1:64129 version=HTTP/1.1 method=GET path=http://127.0.0.1:5800/assets/css/main.css
+
+  2024-04-01 09:52:44.660  INFO salvo_extra::logging: Response, status: 304 Not Modified, duration: 1.2119ms
+    at C:\Users\27217\.cargo\registry\src\index.crates.io-6f17d22bba15001f\salvo_extra-0.66.2\src\logging.rs:44 on tokio-runtime-worker ThreadId(3)
+    in salvo_extra::logging::Request with remote_addr=socket://127.0.0.1:64128 version=HTTP/1.1 method=GET path=http://127.0.0.1:5800/assets/css/vendor/aos.css
+
+  2024-04-01 09:52:44.662  INFO salvo_extra::logging: Response, status: 304 Not Modified, duration: 2.992ms
+    at C:\Users\27217\.cargo\registry\src\index.crates.io-6f17d22bba15001f\salvo_extra-0.66.2\src\logging.rs:44 on tokio-runtime-worker ThreadId(15)
+    in salvo_extra::logging::Request with remote_addr=socket://127.0.0.1:64130 version=HTTP/1.1 method=GET path=http://127.0.0.1:5800/assets/img/demo/dashb.png
+
+  2024-04-01 09:52:44.663  INFO salvo_extra::logging: Response, status: 304 Not Modified, duration: 2.7356ms
+    at C:\Users\27217\.cargo\registry\src\index.crates.io-6f17d22bba15001f\salvo_extra-0.66.2\src\logging.rs:44 on tokio-runtime-worker ThreadId(3)
+    in salvo_extra::logging::Request with remote_addr=socket://127.0.0.1:64129 version=HTTP/1.1 method=GET path=http://127.0.0.1:5800/assets/js/vendor/jquery.min.js
+
+  2024-04-01 09:52:44.675  INFO salvo_extra::logging: Response, status: 304 Not Modified, duration: 1.2087ms
+    at C:\Users\27217\.cargo\registry\src\index.crates.io-6f17d22bba15001f\salvo_extra-0.66.2\src\logging.rs:44 on tokio-runtime-worker ThreadId(15)
+    in salvo_extra::logging::Request with remote_addr=socket://127.0.0.1:64129 version=HTTP/1.1 method=GET path=http://127.0.0.1:5800/assets/js/vendor/popper.min.js
+
+  2024-04-01 09:52:44.677  INFO salvo_extra::logging: Response, status: 304 Not Modified, duration: 979.2µs
+    at C:\Users\27217\.cargo\registry\src\index.crates.io-6f17d22bba15001f\salvo_extra-0.66.2\src\logging.rs:44 on tokio-runtime-worker ThreadId(15)
+    in salvo_extra::logging::Request with remote_addr=socket://127.0.0.1:64130 version=HTTP/1.1 method=GET path=http://127.0.0.1:5800/assets/js/vendor/share.js
+
+  2024-04-01 09:52:44.679  INFO salvo_extra::logging: Response, status: 304 Not Modified, duration: 643.2µs
+    at C:\Users\27217\.cargo\registry\src\index.crates.io-6f17d22bba15001f\salvo_extra-0.66.2\src\logging.rs:44 on tokio-runtime-worker ThreadId(3)
+    in salvo_extra::logging::Request with remote_addr=socket://127.0.0.1:64128 version=HTTP/1.1 method=GET path=http://127.0.0.1:5800/assets/js/functions.js
+
+  2024-04-01 09:52:44.679  INFO salvo_extra::logging: Response, status: 304 Not Modified, duration: 1.027ms
+    at C:\Users\27217\.cargo\registry\src\index.crates.io-6f17d22bba15001f\salvo_extra-0.66.2\src\logging.rs:44 on tokio-runtime-worker ThreadId(15)
+    in salvo_extra::logging::Request with remote_addr=socket://127.0.0.1:64129 version=HTTP/1.1 method=GET path=http://127.0.0.1:5800/assets/js/vendor/aos.js
+
+  2024-04-01 09:52:44.682  INFO salvo_extra::logging: Response, status: 304 Not Modified, duration: 1.9904ms
+    at C:\Users\27217\.cargo\registry\src\index.crates.io-6f17d22bba15001f\salvo_extra-0.66.2\src\logging.rs:44 on tokio-runtime-worker ThreadId(15)
+    in salvo_extra::logging::Request with remote_addr=socket://127.0.0.1:64131 version=HTTP/1.1 method=GET path=http://127.0.0.1:5800/assets/js/alpinejs.js
+
+  2024-04-01 09:52:44.682  INFO salvo_extra::logging: Response, status: 304 Not Modified, duration: 2.041ms
+    at C:\Users\27217\.cargo\registry\src\index.crates.io-6f17d22bba15001f\salvo_extra-0.66.2\src\logging.rs:44 on tokio-runtime-worker ThreadId(16)
+    in salvo_extra::logging::Request with remote_addr=socket://127.0.0.1:64129 version=HTTP/1.1 method=GET path=http://127.0.0.1:5800/assets/js/vendor/bootstrap.min.js
+
+  2024-04-01 09:52:49.040  INFO salvo_extra::logging: Response, status: 304 Not Modified, duration: 6.9082ms
+    at C:\Users\27217\.cargo\registry\src\index.crates.io-6f17d22bba15001f\salvo_extra-0.66.2\src\logging.rs:44 on tokio-runtime-worker ThreadId(15)
+    in salvo_extra::logging::Request with remote_addr=socket://127.0.0.1:64129 version=HTTP/1.1 method=GET path=http://127.0.0.1:5800/assets/css/main.css
+
+  2024-04-01 09:52:49.042  INFO salvo_extra::logging: Response, status: 304 Not Modified, duration: 1.2021ms
+    at C:\Users\27217\.cargo\registry\src\index.crates.io-6f17d22bba15001f\salvo_extra-0.66.2\src\logging.rs:44 on tokio-runtime-worker ThreadId(15)
+    in salvo_extra::logging::Request with remote_addr=socket://127.0.0.1:64131 version=HTTP/1.1 method=GET path=http://127.0.0.1:5800/assets/css/vendor/aos.css
+
+  2024-04-01 09:52:49.144  INFO salvo_extra::logging: Response, status: 200 OK, duration: 15.1245ms
+    at C:\Users\27217\.cargo\registry\src\index.crates.io-6f17d22bba15001f\salvo_extra-0.66.2\src\logging.rs:44 on tokio-runtime-worker ThreadId(15)
+    in salvo_extra::logging::Request with remote_addr=socket://127.0.0.1:64131 version=HTTP/1.1 method=GET path=http://127.0.0.1:5800/assets/css/main.css.map
+
+  2024-04-01 09:52:49.741  INFO salvo_extra::logging: Response, status: 200 OK, duration: 1.6725ms
+    at C:\Users\27217\.cargo\registry\src\index.crates.io-6f17d22bba15001f\salvo_extra-0.66.2\src\logging.rs:44 on tokio-runtime-worker ThreadId(15)
+    in salvo_extra::logging::Request with remote_addr=socket://127.0.0.1:64131 version=HTTP/1.1 method=GET path=http://127.0.0.1:5800/index
+
+  2024-04-01 09:52:49.791  INFO salvo_extra::logging: Response, status: 200 OK, duration: 6.9315ms
+    at C:\Users\27217\.cargo\registry\src\index.crates.io-6f17d22bba15001f\salvo_extra-0.66.2\src\logging.rs:44 on tokio-runtime-worker ThreadId(16)
+    in salvo_extra::logging::Request with remote_addr=socket://127.0.0.1:64131 version=HTTP/1.1 method=GET path=http://127.0.0.1:5800/assets/css/main.css
+
+  2024-04-01 09:52:49.793  INFO salvo_extra::logging: Response, status: 200 OK, duration: 1.1704ms
+    at C:\Users\27217\.cargo\registry\src\index.crates.io-6f17d22bba15001f\salvo_extra-0.66.2\src\logging.rs:44 on tokio-runtime-worker ThreadId(15)
+    in salvo_extra::logging::Request with remote_addr=socket://127.0.0.1:64129 version=HTTP/1.1 method=GET path=http://127.0.0.1:5800/assets/css/vendor/aos.css
+
+  2024-04-01 09:52:49.796  INFO salvo_extra::logging: Response, status: 200 OK, duration: 3.7589ms
+    at C:\Users\27217\.cargo\registry\src\index.crates.io-6f17d22bba15001f\salvo_extra-0.66.2\src\logging.rs:44 on tokio-runtime-worker ThreadId(16)
+    in salvo_extra::logging::Request with remote_addr=socket://127.0.0.1:64128 version=HTTP/1.1 method=GET path=http://127.0.0.1:5800/assets/img/demo/dashb.png
+
+  2024-04-01 09:52:49.813  INFO salvo_extra::logging: Response, status: 200 OK, duration: 3.3918ms
+    at C:\Users\27217\.cargo\registry\src\index.crates.io-6f17d22bba15001f\salvo_extra-0.66.2\src\logging.rs:44 on tokio-runtime-worker ThreadId(3)
+    in salvo_extra::logging::Request with remote_addr=socket://127.0.0.1:64128 version=HTTP/1.1 method=GET path=http://127.0.0.1:5800/assets/js/vendor/jquery.min.js
+
+  2024-04-01 09:52:49.815  INFO salvo_extra::logging: Response, status: 200 OK, duration: 859.6µs
+    at C:\Users\27217\.cargo\registry\src\index.crates.io-6f17d22bba15001f\salvo_extra-0.66.2\src\logging.rs:44 on tokio-runtime-worker ThreadId(14)
+    in salvo_extra::logging::Request with remote_addr=socket://127.0.0.1:64130 version=HTTP/1.1 method=GET path=http://127.0.0.1:5800/assets/js/vendor/share.js
+
+  2024-04-01 09:52:49.815  INFO salvo_extra::logging: Response, status: 200 OK, duration: 1.1ms
+    at C:\Users\27217\.cargo\registry\src\index.crates.io-6f17d22bba15001f\salvo_extra-0.66.2\src\logging.rs:44 on tokio-runtime-worker ThreadId(3)
+    in salvo_extra::logging::Request with remote_addr=socket://127.0.0.1:64132 version=HTTP/1.1 method=GET path=http://127.0.0.1:5800/assets/js/functions.js
+
+  2024-04-01 09:52:49.815  INFO salvo_extra::logging: Response, status: 200 OK, duration: 1.164ms
+    at C:\Users\27217\.cargo\registry\src\index.crates.io-6f17d22bba15001f\salvo_extra-0.66.2\src\logging.rs:44 on tokio-runtime-worker ThreadId(16)
+    in salvo_extra::logging::Request with remote_addr=socket://127.0.0.1:64129 version=HTTP/1.1 method=GET path=http://127.0.0.1:5800/assets/js/vendor/popper.min.js
+
+  2024-04-01 09:52:49.815  INFO salvo_extra::logging: Response, status: 200 OK, duration: 737.9µs
+    at C:\Users\27217\.cargo\registry\src\index.crates.io-6f17d22bba15001f\salvo_extra-0.66.2\src\logging.rs:44 on tokio-runtime-worker ThreadId(13)
+    in salvo_extra::logging::Request with remote_addr=socket://127.0.0.1:64140 version=HTTP/1.1 method=GET path=http://127.0.0.1:5800/assets/js/vendor/aos.js
+
+  2024-04-01 09:52:49.817  INFO salvo_extra::logging: Response, status: 200 OK, duration: 2.7449ms
+    at C:\Users\27217\.cargo\registry\src\index.crates.io-6f17d22bba15001f\salvo_extra-0.66.2\src\logging.rs:44 on tokio-runtime-worker ThreadId(15)
+    in salvo_extra::logging::Request with remote_addr=socket://127.0.0.1:64131 version=HTTP/1.1 method=GET path=http://127.0.0.1:5800/assets/js/vendor/bootstrap.min.js
+
+  2024-04-01 09:52:49.820  INFO salvo_extra::logging: Response, status: 200 OK, duration: 1.862ms
+    at C:\Users\27217\.cargo\registry\src\index.crates.io-6f17d22bba15001f\salvo_extra-0.66.2\src\logging.rs:44 on tokio-runtime-worker ThreadId(14)
+    in salvo_extra::logging::Request with remote_addr=socket://127.0.0.1:64128 version=HTTP/1.1 method=GET path=http://127.0.0.1:5800/assets/js/alpinejs.js
+
+  2024-04-01 09:52:49.866  INFO salvo_extra::logging: Response, status: 200 OK, duration: 21.0868ms
+    at C:\Users\27217\.cargo\registry\src\index.crates.io-6f17d22bba15001f\salvo_extra-0.66.2\src\logging.rs:44 on tokio-runtime-worker ThreadId(14)
+    in salvo_extra::logging::Request with remote_addr=socket://127.0.0.1:64128 version=HTTP/1.1 method=GET path=http://127.0.0.1:5800/assets/css/main.css.map
+
+  2024-04-01 09:52:49.953  INFO salvo_extra::logging: Response, status: 404 Not Found, duration: 189µs
+    at C:\Users\27217\.cargo\registry\src\index.crates.io-6f17d22bba15001f\salvo_extra-0.66.2\src\logging.rs:44 on tokio-runtime-worker ThreadId(14)
+    in salvo_extra::logging::Request with remote_addr=socket://127.0.0.1:64128 version=HTTP/1.1 method=GET path=http://127.0.0.1:5800/assets/js/vendor/popper.min.js.map
+
+  2024-04-01 09:52:49.954  INFO salvo_extra::logging: Response, status: 404 Not Found, duration: 143.7µs
+    at C:\Users\27217\.cargo\registry\src\index.crates.io-6f17d22bba15001f\salvo_extra-0.66.2\src\logging.rs:44 on tokio-runtime-worker ThreadId(14)
+    in salvo_extra::logging::Request with remote_addr=socket://127.0.0.1:64131 version=HTTP/1.1 method=GET path=http://127.0.0.1:5800/assets/js/vendor/bootstrap.min.js.map
+
+  2024-04-01 09:52:49.957  INFO salvo_extra::logging: Response, status: 404 Not Found, duration: 106.5µs
+    at C:\Users\27217\.cargo\registry\src\index.crates.io-6f17d22bba15001f\salvo_extra-0.66.2\src\logging.rs:44 on tokio-runtime-worker ThreadId(14)
+    in salvo_extra::logging::Request with remote_addr=socket://127.0.0.1:64131 version=HTTP/1.1 method=GET path=http://127.0.0.1:5800/assets/js/vendor/popper.min.js.map
+
+  2024-04-01 09:52:49.958  INFO salvo_extra::logging: Response, status: 404 Not Found, duration: 75.2µs
+    at C:\Users\27217\.cargo\registry\src\index.crates.io-6f17d22bba15001f\salvo_extra-0.66.2\src\logging.rs:44 on tokio-runtime-worker ThreadId(14)
+    in salvo_extra::logging::Request with remote_addr=socket://127.0.0.1:64128 version=HTTP/1.1 method=GET path=http://127.0.0.1:5800/assets/js/vendor/bootstrap.min.js.map
+
+  2024-04-01 09:56:52.670  INFO okudera: ctrl_c signal received
+    at src\main.rs:105 on tokio-runtime-worker ThreadId(14)
+
+  2024-04-01 09:56:52.671  INFO salvo_core::conn::proto: closing connection due to inactivity
+    at C:\Users\27217\.cargo\registry\src\index.crates.io-6f17d22bba15001f\salvo_core-0.66.2\src\conn\proto.rs:117 on tokio-runtime-worker ThreadId(14)
+
+  2024-04-01 09:56:52.671  INFO salvo_core::conn::proto: closing connection due to inactivity
+    at C:\Users\27217\.cargo\registry\src\index.crates.io-6f17d22bba15001f\salvo_core-0.66.2\src\conn\proto.rs:117 on tokio-runtime-worker ThreadId(13)
+
+  2024-04-01 09:56:52.671  INFO salvo_core::conn::proto: closing connection due to inactivity
+    at C:\Users\27217\.cargo\registry\src\index.crates.io-6f17d22bba15001f\salvo_core-0.66.2\src\conn\proto.rs:117 on tokio-runtime-worker ThreadId(16)
+
+  2024-04-01 09:56:52.671  INFO salvo_core::conn::proto: closing connection due to inactivity
+    at C:\Users\27217\.cargo\registry\src\index.crates.io-6f17d22bba15001f\salvo_core-0.66.2\src\conn\proto.rs:117 on tokio-runtime-worker ThreadId(3)
+
+  2024-04-01 09:56:52.671  INFO salvo_core::conn::proto: closing connection due to inactivity
+    at C:\Users\27217\.cargo\registry\src\index.crates.io-6f17d22bba15001f\salvo_core-0.66.2\src\conn\proto.rs:117 on tokio-runtime-worker ThreadId(15)
+
+  2024-04-01 09:56:52.671  INFO salvo_core::conn::proto: closing connection due to inactivity
+    at C:\Users\27217\.cargo\registry\src\index.crates.io-6f17d22bba15001f\salvo_core-0.66.2\src\conn\proto.rs:117 on tokio-runtime-worker ThreadId(4)
+
+  2024-04-01 09:56:52.671  INFO salvo_core::server: initiate graceful stop server, timeout_in_seconds: 60.0
+    at C:\Users\27217\.cargo\registry\src\index.crates.io-6f17d22bba15001f\salvo_core-0.66.2\src\server.rs:255 on main ThreadId(1)
+
+  2024-04-01 09:56:52.680  INFO salvo_core::server: wait for all connections to close.
+    at C:\Users\27217\.cargo\registry\src\index.crates.io-6f17d22bba15001f\salvo_core-0.66.2\src\server.rs:313 on main ThreadId(1)
+
+  2024-04-01 09:56:52.680  INFO salvo_core::server: server stopped
+    at C:\Users\27217\.cargo\registry\src\index.crates.io-6f17d22bba15001f\salvo_core-0.66.2\src\server.rs:317 on main ThreadId(1)
+
+  2024-04-01 09:59:18.433  INFO okudera: log level: info
+    at src\main.rs:34 on main ThreadId(1)
+
+  2024-04-01 09:59:18.460  INFO salvo_core::server: listening [HTTP/1.1] on http://0.0.0.0:5800
+    at C:\Users\27217\.cargo\registry\src\index.crates.io-6f17d22bba15001f\salvo_core-0.66.2\src\server.rs:232 on main ThreadId(1)
+
+  2024-04-01 09:59:21.199  INFO salvo_extra::logging: Response, status: 303 See Other, duration: 1.4005ms
+    at C:\Users\27217\.cargo\registry\src\index.crates.io-6f17d22bba15001f\salvo_extra-0.66.2\src\logging.rs:44 on tokio-runtime-worker ThreadId(5)
+    in salvo_extra::logging::Request with remote_addr=socket://127.0.0.1:64595 version=HTTP/1.1 method=GET path=http://127.0.0.1:5800/login
+
+  2024-04-01 09:59:21.212  INFO salvo_extra::logging: Response, status: 200 OK, duration: 1.6018ms
+    at C:\Users\27217\.cargo\registry\src\index.crates.io-6f17d22bba15001f\salvo_extra-0.66.2\src\logging.rs:44 on tokio-runtime-worker ThreadId(17)
+    in salvo_extra::logging::Request with remote_addr=socket://127.0.0.1:64595 version=HTTP/1.1 method=GET path=http://127.0.0.1:5800/index
+
+  2024-04-01 09:59:21.292  INFO salvo_extra::logging: Response, status: 304 Not Modified, duration: 10.0251ms
+    at C:\Users\27217\.cargo\registry\src\index.crates.io-6f17d22bba15001f\salvo_extra-0.66.2\src\logging.rs:44 on tokio-runtime-worker ThreadId(5)
+    in salvo_extra::logging::Request with remote_addr=socket://127.0.0.1:64595 version=HTTP/1.1 method=GET path=http://127.0.0.1:5800/assets/css/main.css
+
+  2024-04-01 09:59:21.295  INFO salvo_extra::logging: Response, status: 304 Not Modified, duration: 1.572ms
+    at C:\Users\27217\.cargo\registry\src\index.crates.io-6f17d22bba15001f\salvo_extra-0.66.2\src\logging.rs:44 on tokio-runtime-worker ThreadId(5)
+    in salvo_extra::logging::Request with remote_addr=socket://127.0.0.1:64596 version=HTTP/1.1 method=GET path=http://127.0.0.1:5800/assets/css/vendor/aos.css
+
+  2024-04-01 09:59:21.303  INFO salvo_extra::logging: Response, status: 304 Not Modified, duration: 4.2375ms
+    at C:\Users\27217\.cargo\registry\src\index.crates.io-6f17d22bba15001f\salvo_extra-0.66.2\src\logging.rs:44 on tokio-runtime-worker ThreadId(5)
+    in salvo_extra::logging::Request with remote_addr=socket://127.0.0.1:64596 version=HTTP/1.1 method=GET path=http://127.0.0.1:5800/assets/img/demo/dashb.png
+
+  2024-04-01 09:59:21.319  INFO salvo_extra::logging: Response, status: 304 Not Modified, duration: 3.7339ms
+    at C:\Users\27217\.cargo\registry\src\index.crates.io-6f17d22bba15001f\salvo_extra-0.66.2\src\logging.rs:44 on tokio-runtime-worker ThreadId(5)
+    in salvo_extra::logging::Request with remote_addr=socket://127.0.0.1:64596 version=HTTP/1.1 method=GET path=http://127.0.0.1:5800/assets/img/demo/dashb2.png
+
+  2024-04-01 09:59:21.321  INFO salvo_extra::logging: Response, status: 304 Not Modified, duration: 565.6µs
+    at C:\Users\27217\.cargo\registry\src\index.crates.io-6f17d22bba15001f\salvo_extra-0.66.2\src\logging.rs:44 on tokio-runtime-worker ThreadId(14)
+    in salvo_extra::logging::Request with remote_addr=socket://127.0.0.1:64600 version=HTTP/1.1 method=GET path=http://127.0.0.1:5800/assets/js/functions.js
+
+  2024-04-01 09:59:21.322  INFO salvo_extra::logging: Response, status: 304 Not Modified, duration: 1.2649ms
+    at C:\Users\27217\.cargo\registry\src\index.crates.io-6f17d22bba15001f\salvo_extra-0.66.2\src\logging.rs:44 on tokio-runtime-worker ThreadId(17)
+    in salvo_extra::logging::Request with remote_addr=socket://127.0.0.1:64599 version=HTTP/1.1 method=GET path=http://127.0.0.1:5800/assets/js/vendor/share.js
+
+  2024-04-01 09:59:21.323  INFO salvo_extra::logging: Response, status: 304 Not Modified, duration: 1.5208ms
+    at C:\Users\27217\.cargo\registry\src\index.crates.io-6f17d22bba15001f\salvo_extra-0.66.2\src\logging.rs:44 on tokio-runtime-worker ThreadId(13)
+    in salvo_extra::logging::Request with remote_addr=socket://127.0.0.1:64597 version=HTTP/1.1 method=GET path=http://127.0.0.1:5800/assets/js/vendor/popper.min.js
+
+  2024-04-01 09:59:21.324  INFO salvo_extra::logging: Response, status: 304 Not Modified, duration: 4.2356ms
+    at C:\Users\27217\.cargo\registry\src\index.crates.io-6f17d22bba15001f\salvo_extra-0.66.2\src\logging.rs:44 on tokio-runtime-worker ThreadId(5)
+    in salvo_extra::logging::Request with remote_addr=socket://127.0.0.1:64595 version=HTTP/1.1 method=GET path=http://127.0.0.1:5800/assets/js/vendor/jquery.min.js
+
+  2024-04-01 09:59:21.326  INFO salvo_extra::logging: Response, status: 304 Not Modified, duration: 5.3923ms
+    at C:\Users\27217\.cargo\registry\src\index.crates.io-6f17d22bba15001f\salvo_extra-0.66.2\src\logging.rs:44 on tokio-runtime-worker ThreadId(15)
+    in salvo_extra::logging::Request with remote_addr=socket://127.0.0.1:64598 version=HTTP/1.1 method=GET path=http://127.0.0.1:5800/assets/js/vendor/bootstrap.min.js
+
+  2024-04-01 09:59:21.327  INFO salvo_extra::logging: Response, status: 304 Not Modified, duration: 1.624ms
+    at C:\Users\27217\.cargo\registry\src\index.crates.io-6f17d22bba15001f\salvo_extra-0.66.2\src\logging.rs:44 on tokio-runtime-worker ThreadId(12)
+    in salvo_extra::logging::Request with remote_addr=socket://127.0.0.1:64599 version=HTTP/1.1 method=GET path=http://127.0.0.1:5800/assets/js/vendor/aos.js
+
+  2024-04-01 09:59:21.327  INFO salvo_extra::logging: Response, status: 304 Not Modified, duration: 1.1956ms
+    at C:\Users\27217\.cargo\registry\src\index.crates.io-6f17d22bba15001f\salvo_extra-0.66.2\src\logging.rs:44 on tokio-runtime-worker ThreadId(5)
+    in salvo_extra::logging::Request with remote_addr=socket://127.0.0.1:64595 version=HTTP/1.1 method=GET path=http://127.0.0.1:5800/assets/img/demo/avatar.png
+
+  2024-04-01 09:59:21.329  INFO salvo_extra::logging: Response, status: 304 Not Modified, duration: 1.0951ms
+    at C:\Users\27217\.cargo\registry\src\index.crates.io-6f17d22bba15001f\salvo_extra-0.66.2\src\logging.rs:44 on tokio-runtime-worker ThreadId(13)
+    in salvo_extra::logging::Request with remote_addr=socket://127.0.0.1:64600 version=HTTP/1.1 method=GET path=http://127.0.0.1:5800/assets/img/demo/avatar2.jpg
+
+  2024-04-01 09:59:21.333  INFO salvo_extra::logging: Response, status: 304 Not Modified, duration: 1.5871ms
+    at C:\Users\27217\.cargo\registry\src\index.crates.io-6f17d22bba15001f\salvo_extra-0.66.2\src\logging.rs:44 on tokio-runtime-worker ThreadId(5)
+    in salvo_extra::logging::Request with remote_addr=socket://127.0.0.1:64600 version=HTTP/1.1 method=GET path=http://127.0.0.1:5800/assets/img/favicon.ico
+
+  2024-04-01 09:59:21.338  INFO salvo_extra::logging: Response, status: 304 Not Modified, duration: 3.8845ms
+    at C:\Users\27217\.cargo\registry\src\index.crates.io-6f17d22bba15001f\salvo_extra-0.66.2\src\logging.rs:44 on tokio-runtime-worker ThreadId(12)
+    in salvo_extra::logging::Request with remote_addr=socket://127.0.0.1:64597 version=HTTP/1.1 method=GET path=http://127.0.0.1:5800/assets/img/demo/3.jpg
+
+  2024-04-01 09:59:21.339  INFO salvo_extra::logging: Response, status: 304 Not Modified, duration: 5.2337ms
+    at C:\Users\27217\.cargo\registry\src\index.crates.io-6f17d22bba15001f\salvo_extra-0.66.2\src\logging.rs:44 on tokio-runtime-worker ThreadId(5)
+    in salvo_extra::logging::Request with remote_addr=socket://127.0.0.1:64598 version=HTTP/1.1 method=GET path=http://127.0.0.1:5800/assets/img/demo/blog8.jpg
+
+  2024-04-01 09:59:21.341  INFO salvo_extra::logging: Response, status: 304 Not Modified, duration: 2.1964ms
+    at C:\Users\27217\.cargo\registry\src\index.crates.io-6f17d22bba15001f\salvo_extra-0.66.2\src\logging.rs:44 on tokio-runtime-worker ThreadId(12)
+    in salvo_extra::logging::Request with remote_addr=socket://127.0.0.1:64596 version=HTTP/1.1 method=GET path=http://127.0.0.1:5800/assets/img/demo/2.jpg
+
+  2024-04-01 09:59:21.342  INFO salvo_extra::logging: Response, status: 304 Not Modified, duration: 8.0924ms
+    at C:\Users\27217\.cargo\registry\src\index.crates.io-6f17d22bba15001f\salvo_extra-0.66.2\src\logging.rs:44 on tokio-runtime-worker ThreadId(13)
+    in salvo_extra::logging::Request with remote_addr=socket://127.0.0.1:64595 version=HTTP/1.1 method=GET path=http://127.0.0.1:5800/assets/img/demo/7.jpg
+
+  2024-04-01 09:59:21.342  INFO salvo_extra::logging: Response, status: 304 Not Modified, duration: 1.1379ms
+    at C:\Users\27217\.cargo\registry\src\index.crates.io-6f17d22bba15001f\salvo_extra-0.66.2\src\logging.rs:44 on tokio-runtime-worker ThreadId(5)
+    in salvo_extra::logging::Request with remote_addr=socket://127.0.0.1:64598 version=HTTP/1.1 method=GET path=http://127.0.0.1:5800/assets/img/demo/screenshot4.png
+
+  2024-04-01 09:59:21.343  INFO salvo_extra::logging: Response, status: 304 Not Modified, duration: 9.3728ms
+    at C:\Users\27217\.cargo\registry\src\index.crates.io-6f17d22bba15001f\salvo_extra-0.66.2\src\logging.rs:44 on tokio-runtime-worker ThreadId(15)
+    in salvo_extra::logging::Request with remote_addr=socket://127.0.0.1:64599 version=HTTP/1.1 method=GET path=http://127.0.0.1:5800/assets/img/demo/9.jpg
+
+  2024-04-01 09:59:21.347  INFO salvo_extra::logging: Response, status: 304 Not Modified, duration: 3.2628ms
+    at C:\Users\27217\.cargo\registry\src\index.crates.io-6f17d22bba15001f\salvo_extra-0.66.2\src\logging.rs:44 on tokio-runtime-worker ThreadId(12)
+    in salvo_extra::logging::Request with remote_addr=socket://127.0.0.1:64599 version=HTTP/1.1 method=GET path=http://127.0.0.1:5800/assets/img/demo/screenshot2.png
+
+  2024-04-01 09:59:21.350  INFO salvo_extra::logging: Response, status: 304 Not Modified, duration: 1.6803ms
+    at C:\Users\27217\.cargo\registry\src\index.crates.io-6f17d22bba15001f\salvo_extra-0.66.2\src\logging.rs:44 on tokio-runtime-worker ThreadId(5)
+    in salvo_extra::logging::Request with remote_addr=socket://127.0.0.1:64598 version=HTTP/1.1 method=GET path=http://127.0.0.1:5800/assets/img/demo/screenshot3.png
+
+  2024-04-01 09:59:21.351  INFO salvo_extra::logging: Response, status: 304 Not Modified, duration: 1.9316ms
+    at C:\Users\27217\.cargo\registry\src\index.crates.io-6f17d22bba15001f\salvo_extra-0.66.2\src\logging.rs:44 on tokio-runtime-worker ThreadId(13)
+    in salvo_extra::logging::Request with remote_addr=socket://127.0.0.1:64599 version=HTTP/1.1 method=GET path=http://127.0.0.1:5800/assets/img/demo/1.jpg
+
+  2024-04-01 09:59:21.351  INFO salvo_extra::logging: Response, status: 304 Not Modified, duration: 2.3497ms
+    at C:\Users\27217\.cargo\registry\src\index.crates.io-6f17d22bba15001f\salvo_extra-0.66.2\src\logging.rs:44 on tokio-runtime-worker ThreadId(12)
+    in salvo_extra::logging::Request with remote_addr=socket://127.0.0.1:64595 version=HTTP/1.1 method=GET path=http://127.0.0.1:5800/assets/js/alpinejs.js
+
+  2024-04-01 09:59:21.352  INFO salvo_extra::logging: Response, status: 304 Not Modified, duration: 1.5146ms
+    at C:\Users\27217\.cargo\registry\src\index.crates.io-6f17d22bba15001f\salvo_extra-0.66.2\src\logging.rs:44 on tokio-runtime-worker ThreadId(5)
+    in salvo_extra::logging::Request with remote_addr=socket://127.0.0.1:64596 version=HTTP/1.1 method=GET path=http://127.0.0.1:5800/assets/img/demo/4.jpg
+
+  2024-04-01 10:01:13.875  INFO okudera: ctrl_c signal received
+    at src\main.rs:105 on tokio-runtime-worker ThreadId(12)
+
+  2024-04-01 10:01:13.875  INFO salvo_core::server: initiate graceful stop server, timeout_in_seconds: 60.0
+    at C:\Users\27217\.cargo\registry\src\index.crates.io-6f17d22bba15001f\salvo_core-0.66.2\src\server.rs:255 on main ThreadId(1)
+
+  2024-04-01 10:01:13.875  INFO salvo_core::server: server stopped
+    at C:\Users\27217\.cargo\registry\src\index.crates.io-6f17d22bba15001f\salvo_core-0.66.2\src\server.rs:317 on main ThreadId(1)
+

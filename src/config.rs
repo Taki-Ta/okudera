@@ -55,17 +55,14 @@ impl Configs {
     pub fn init() -> Self {
         let mut file = match File::open(CONFIG_FILE) {
             Ok(f) => f,
-            Err(e) => panic!(
-                "配置文件不存在:{},错误信息:{}",
-                CONFIG_FILE, e
-            ),
+            Err(e) => panic!("配置文件不存在:{},错误信息:{}", CONFIG_FILE, e),
         };
         let mut cfg_contents = String::new();
         match file.read_to_string(&mut cfg_contents) {
             Ok(s) => s,
             Err(e) => panic!("读取配置文件失败,错误信息:{}", e),
         };
-        match serde_yaml::from_str(&cfg_contents){
+        match serde_yaml::from_str(&cfg_contents) {
             Ok(c) => c,
             Err(e) => panic!("解析配置文件失败,错误信息:{}", e),
         }

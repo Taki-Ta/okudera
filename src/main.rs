@@ -1,23 +1,26 @@
 use crate::db::init_db_conn;
-use tokio::signal;
-use tracing::info;
-use crate::middleware::{handle_404::handle_404,cors::cors_middleware};
+use crate::middleware::{
+    cors::cors_middleware,
+    handle_http_status::{handle_401, handle_404},
+};
 use crate::routers::router;
 use config::{CERT_KEY, CFG};
-use salvo::server::ServerHandle;
 use salvo::catcher::Catcher;
 use salvo::conn::rustls::{Keycert, RustlsConfig};
 use salvo::prelude::*;
+use salvo::server::ServerHandle;
+use tokio::signal;
+use tracing::info;
 mod app_error;
 mod app_writer;
 mod config;
 mod db;
 mod dtos;
-mod services;
-mod utils;
 mod entities;
 mod middleware;
 mod routers;
+mod services;
+mod utils;
 
 #[tokio::main]
 async fn main() {
@@ -30,13 +33,14 @@ async fn main() {
         .file_name(&CFG.log.file_name)
         .rolling(&CFG.log.rolling)
         .init();
-    
+
     tracing::info!("log level: {}", &CFG.log.filter_level);
 
     init_db_conn().await;
     let router = router();
     let service: Service = router.into();
-    let service = service.catcher(Catcher::default().hoop(handle_404));//.hoop(_cors_handler).hoop(handle_404));
+    let service = service.catcher(Catcher::default().hoop(handle_404));
+    let service = service.catcher(Catcher::default().hoop(handle_401));
     println!("🌪️ {} 正在启动 ", &CFG.server.name);
     println!("🔄 在以下位置监听 {}", &CFG.server.address);
     let _cors_handler = cors_middleware();
@@ -46,7 +50,10 @@ async fn main() {
                 "📖 Open API页面: https://{}/swagger-ui",
                 &CFG.server.address.replace("0.0.0.0", "127.0.0.1")
             );
-            println!("🔑 登录页面: https://{}/login", &CFG.server.address.replace("0.0.0.0", "127.0.0.1"));
+            println!(
+                "🔑 登录页面: https://{}/login",
+                &CFG.server.address.replace("0.0.0.0", "127.0.0.1")
+            );
             let config = RustlsConfig::new(
                 Keycert::new()
                     .cert(CERT_KEY.cert.clone())
@@ -60,19 +67,22 @@ async fn main() {
             let handle = server.handle();
             tokio::spawn(shutdown_signal(handle));
             server.serve(service).await;
-         }
+        }
         false => {
             println!(
                 "📖 Open API页面: http://{}/swagger-ui",
                 &CFG.server.address.replace("0.0.0.0", "127.0.0.1")
             );
-            println!("🔑 登录页面: http://{}/login", &CFG.server.address.replace("0.0.0.0", "127.0.0.1"));
+            println!(
+                "🔑 登录页面: http://{}/login",
+                &CFG.server.address.replace("0.0.0.0", "127.0.0.1")
+            );
             let acceptor = TcpListener::new(&CFG.server.address).bind().await;
             let server = Server::new(acceptor);
             let handle = server.handle();
             tokio::spawn(shutdown_signal(handle));
             server.serve(service).await;
-            }
+        }
     }
 }
 

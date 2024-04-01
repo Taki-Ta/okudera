@@ -76,12 +76,12 @@ impl<T: Serialize + Send + Default> ResponseBuilder<T> {
 
 impl ErrorResponseBuilder {
     pub fn with_err(err: AppError) -> Self {
-    let (code, msg) = match &err {
-    AppError::AnyHow(e) => (500, e.to_string()),
-    AppError::ParseError(e) => (400, e.to_string()),
-    AppError::SqlxError(e) => (500, e.to_string()),
-    AppError::ValidationError(e) => (400, e.to_string()),
-    };
+        let (code, msg) = match &err {
+            AppError::AnyHow(e) => (500, e.to_string()),
+            AppError::ParseError(e) => (400, e.to_string()),
+            AppError::SqlxError(e) => (500, e.to_string()),
+            AppError::ValidationError(e) => (400, e.to_string()),
+        };
         Self {
             code,
             msg,
@@ -97,13 +97,13 @@ impl<T: Serialize + Send + Default> ResponseBuilder<T> {
 
 impl ErrorResponseBuilder {
     pub fn into_response(self, res: &mut Response) {
-    let status_code = match self.source_error {
-        AppError::AnyHow(_) => StatusCode::INTERNAL_SERVER_ERROR,
-        AppError::ParseError(_) => StatusCode::BAD_REQUEST,
-        AppError::SqlxError(_) => StatusCode::INTERNAL_SERVER_ERROR,
-        AppError::ValidationError(_) => StatusCode::BAD_REQUEST,
-    };        
-    res.stuff(status_code, Json(self));
+        let status_code = match self.source_error {
+            AppError::AnyHow(_) => StatusCode::INTERNAL_SERVER_ERROR,
+            AppError::ParseError(_) => StatusCode::BAD_REQUEST,
+            AppError::SqlxError(_) => StatusCode::INTERNAL_SERVER_ERROR,
+            AppError::ValidationError(_) => StatusCode::BAD_REQUEST,
+        };
+        res.stuff(status_code, Json(self));
     }
 }
 

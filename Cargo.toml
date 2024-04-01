@@ -20,5 +20,5 @@ time = "0.3.28"
 tokio = { version = "1", features = ["full"] }
 tracing = "0.1"
 uuid = { version = "1.4.1", features = ["v4", "fast-rng", "macro-diagnostics"] }
-validator = { version = "0.16", features = ["derive"] }
+validator = { version = "0.17", features = ["derive"] }
 askama = "0.12.0"

@@ -1,16 +1,18 @@
 use askama::Template;
-use salvo::{
-    writing:: Text,  Response
-};
 use salvo::prelude::*;
+use salvo::{writing::Text, Response};
 
 #[derive(Template)]
 #[template(path = "index.html")]
-pub struct IndexTemplate<'a> {
-    content: &'a str,
+pub struct IndexTemplate {
+    #[allow(dead_code)]
+    content: String,
 }
 
 #[handler]
 pub async fn index(res: &mut Response) {
-    res.render(Text::Html(IndexTemplate { content: "Hello, Salvo!" }.to_string()))
+    let content = tokio::fs::read_to_string("templates/index_content.html")
+        .await
+        .unwrap();
+    res.render(Text::Html(IndexTemplate { content }.render().unwrap()))
 }

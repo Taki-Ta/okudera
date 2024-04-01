@@ -20,26 +20,25 @@ use salvo::{
 use salvo::{prelude::*, Writer};
 use tracing::info;
 
-#[derive(Template)]
-#[template(path = "login.html")]
-struct LoginTemplate {}
+// #[derive(Template)]
+// #[template(path = "login.html")]
+// struct LoginTemplate {}
 
-#[endpoint(tags("comm"))]
-pub async fn login_page(res: &mut Response) -> AppResult<()> {
-    let cookies = res.cookies();
-    let cookie = cookies.get("jwt_token");
-    if let Some(cookie) = cookie {
-        let token = cookie.value().to_string();
-        if decode_token(&token) {
-            res.render(Redirect::other("/users"));
-            return Ok(());
-        } else {
-        }
-    }
-    let hello_tmpl = LoginTemplate {};
-    res.render(Text::Html(hello_tmpl.render().unwrap()));
-    Ok(())
-}
+// #[endpoint(tags("comm"))]
+// pub async fn login_page(res: &mut Response) -> AppResult<()> {
+//     let cookies = res.cookies();
+//     let cookie = cookies.get("jwt_token");
+//     if let Some(cookie) = cookie {
+//         let token = cookie.value().to_string();
+//         if decode_token(&token) {
+//             res.render(Redirect::other("/users"));
+//             return Ok(());
+//         }
+//     }
+//     let hello_tmpl = LoginTemplate {};
+//     res.render(Text::Html(hello_tmpl.render().unwrap()));
+//     Ok(())
+// }
 
 #[derive(Template)]
 #[template(path = "user_list_page.html")]
@@ -114,7 +113,7 @@ pub async fn get_users() -> AppWriter<Vec<UserResponse>> {
 }
 
 #[handler]
-pub async fn login_page_new(&self, res: &mut Response) {
+pub async fn login_page(&self, res: &mut Response) {
     let cookies = res.cookies();
     let cookie = cookies.get("jwt_token");
     if let Some(cookie) = cookie {
@@ -130,7 +129,7 @@ pub async fn login_page_new(&self, res: &mut Response) {
 #[endpoint(tags("users"))]
 pub async fn logout(res: &mut Response) -> AppResult<()> {
     let cookies = res.cookies_mut(); // Change the type of `cookies` to `CookiesMut`
-    if let Some(_) = cookies.get("jwt_token") {
+    if cookies.get("jwt_token").is_some() {
         let cookie = Cookie::build(("jwt_token", ""))
             .path("/")
             .http_only(true)
@@ -144,8 +143,4 @@ pub async fn logout(res: &mut Response) -> AppResult<()> {
 }
 
 #[cfg(test)]
-mod test {
-
-
-
-}
+mod test {}

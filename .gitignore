@@ -1,2 +1,5 @@
 /target
 /migration/target
+/logs
+/data
+/Cargo.lock

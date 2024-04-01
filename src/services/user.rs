@@ -2,11 +2,10 @@ use crate::{
     app_writer::AppResult,
     db::DB,
     dtos::user::{
-        UserAddRequest, UserLoginRequest, UserLoginResponse, UserResponse,
-        UserUpdateRequest,
+        UserAddRequest, UserLoginRequest, UserLoginResponse, UserResponse, UserUpdateRequest,
     },
-    middleware::jwt::get_token,
     entities::users::User,
+    middleware::jwt::get_token,
     utils::rand_utils,
 };
 use uuid::Uuid;

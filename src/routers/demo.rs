@@ -1,6 +1,6 @@
+use crate::app_writer::AppResult;
 use askama::Template;
 use salvo::{oapi::endpoint, writing::Text, Request, Response};
-use crate::app_writer::AppResult;
 
 #[derive(Template)]
 #[template(path = "hello.html")]
@@ -9,7 +9,7 @@ struct HelloTemplate<'a> {
 }
 
 #[endpoint]
-pub async fn hello(req: &mut Request, res: &mut Response)->AppResult<()>{
+pub async fn hello(req: &mut Request, res: &mut Response) -> AppResult<()> {
     let hello_tmpl = HelloTemplate {
         name: req.param::<&str>("name").unwrap_or("World"),
     };
@@ -19,9 +19,9 @@ pub async fn hello(req: &mut Request, res: &mut Response)->AppResult<()>{
 
 #[allow(unused_imports)]
 mod tests {
+    use crate::config::CFG;
     use salvo::test::{ResponseExt, TestClient};
     use salvo::Service;
-    use crate::config::CFG;
 
     #[tokio::test]
     async fn test_hello_world() {
