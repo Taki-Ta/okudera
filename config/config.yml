@@ -18,8 +18,8 @@ cert:
 
 log:
   filter_level: "info"        # Available options: "debug", "info", "warn", "error"
-  with_ansi: true
-  to_stdout: true
+  with_ansi: false
+  to_stdout: false
   directory: "./logs"
   file_name: "my-service.log"
   rolling: "daily"            # Available options: "minutely", "hourly", "daily", "never"

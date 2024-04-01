@@ -1,0 +1,9 @@
+  2024-04-01 08:44:34.315  INFO okudera: ctrl_c signal received
+    at src/main.rs:98 on tokio-runtime-worker ThreadId(10)
+
+  2024-04-01 08:44:34.316  INFO salvo_core::server: initiate graceful stop server, timeout_in_seconds: 60.0
+    at /Users/taki/.cargo/registry/src/index.crates.io-6f17d22bba15001f/salvo_core-0.66.2/src/server.rs:255 on main ThreadId(1)
+
+  2024-04-01 08:44:34.316  INFO salvo_core::server: server stopped
+    at /Users/taki/.cargo/registry/src/index.crates.io-6f17d22bba15001f/salvo_core-0.66.2/src/server.rs:317 on main ThreadId(1)
+

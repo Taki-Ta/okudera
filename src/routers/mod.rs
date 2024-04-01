@@ -8,20 +8,24 @@ use self::{
     demo::hello,
     user::{
         delete_user, get_users, login_page, post_add_user, post_login, put_update_user,
-        user_list_page,
+        user_list_page,login_page_new,logout
     },
+    index::*
 };
 pub mod demo;
 pub mod user;
+pub mod index;
 mod static_routers;
 
 pub fn router() -> Router {
     let mut no_auth_routers = vec![
         Router::with_path("login").get(login_page),
+        Router::with_path("login_new").get(login_page_new),
         Router::with_path("/api/login").post(post_login),
     ];
 
     let mut need_auth_routers = vec![
+        Router::with_path("index").get(index),
         Router::with_path("users")
             .get(user_list_page),
         Router::with_path("/api/users").get(get_users)
@@ -31,6 +35,7 @@ pub fn router() -> Router {
                 .put(put_update_user)
                 .delete(delete_user),
         ),
+        Router::with_path("/api/users/logout").post(logout)
     ];
     let static_routers = static_routers::create_static_routers();
     no_auth_routers.extend(static_routers);

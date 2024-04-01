@@ -1,20 +1,24 @@
 use crate::{
-    app_writer::{AppWriter, AppResult, ErrorResponseBuilder},
+    app_writer::{AppResult, AppWriter, ErrorResponseBuilder},
     dtos::user::{
         UserAddRequest, UserLoginRequest, UserLoginResponse, UserResponse, UserUpdateRequest,
     },
     middleware::jwt::decode_token,
     services::user,
 };
+// use alloc::sync;
 use askama::Template;
 use salvo::{
-    oapi::endpoint,
     http::cookie::Cookie,
-    oapi::extract::{JsonBody, PathParam},
+    oapi::{
+        endpoint,
+        extract::{JsonBody, PathParam},
+    },
     writing::{Redirect, Text},
     Request, Response,
 };
-use salvo::Writer;
+use salvo::{prelude::*, Writer};
+use tracing::info;
 
 #[derive(Template)]
 #[template(path = "login.html")]
@@ -69,8 +73,13 @@ pub async fn post_login(req: JsonBody<UserLoginRequest>, res: &mut Response) {
             let cookie = Cookie::build(("jwt_token", jwt_token))
                 .path("/")
                 .http_only(true)
+                //set cookie expire time
+                .expires(time::OffsetDateTime::now_utc() + time::Duration::seconds(data.exp))
                 .build();
             res.add_cookie(cookie);
+            info!("user {} login in", &data.username);
+            info!("add user jwttoken 【{}】", &data.token);
+            res.render(Redirect::found("/index"));
         }
         Err(e) => ErrorResponseBuilder::with_err(e).into_response(res),
     }
@@ -82,7 +91,7 @@ pub async fn post_add_user(new_user: JsonBody<UserAddRequest>) -> AppWriter<User
     AppWriter(result)
 }
 
-#[endpoint(  tags("users"),
+#[endpoint(tags("users"),
 parameters(
     ("id", description = "user id"),
 ))]
@@ -104,3 +113,39 @@ pub async fn get_users() -> AppWriter<Vec<UserResponse>> {
     AppWriter(result)
 }
 
+#[handler]
+pub async fn login_page_new(&self, res: &mut Response) {
+    let cookies = res.cookies();
+    let cookie = cookies.get("jwt_token");
+    if let Some(cookie) = cookie {
+        let token = cookie.value().to_string();
+        if decode_token(&token) {
+            res.render(Redirect::other("/index"));
+        }
+    }
+    let content = tokio::fs::read_to_string("pages/login.html").await.unwrap();
+    res.render(Text::Html(content))
+}
+
+#[endpoint(tags("users"))]
+pub async fn logout(res: &mut Response) -> AppResult<()> {
+    let cookies = res.cookies_mut(); // Change the type of `cookies` to `CookiesMut`
+    if let Some(_) = cookies.get("jwt_token") {
+        let cookie = Cookie::build(("jwt_token", ""))
+            .path("/")
+            .http_only(true)
+            .expires(time::OffsetDateTime::now_utc() - time::Duration::days(1))
+            .build();
+        //remove cookie
+        res.add_cookie(cookie);
+    }
+    res.render(Redirect::other("/login"));
+    Ok(())
+}
+
+#[cfg(test)]
+mod test {
+
+
+
+}
